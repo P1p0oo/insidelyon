@@ -1,0 +1,287 @@
+/*
+Theme Name: Fluid Magazine
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+.main-navigation,
+.main-navigation li,
+.site-header .header-t .right .social-networks li{
+	float: right;
+}
+
+.main-navigation li{
+
+	margin-right: 0;
+	margin-left: 35px;
+}
+
+.site-header .header-t .right,
+.site-header .header-t .right .btn-search,
+.site-header .header-t .right .social-networks{
+	float: left;
+}
+
+.site-header .header-t .right .social-networks li{
+	margin-right: 0;
+	margin-left: 25px;
+}
+
+.site-header .header-t .right .btn-search .form-holder{
+	left: 0;
+	right: auto;
+}
+
+.site-header .header-t .right .btn-search .form-holder .search-form label{
+
+	float: right;
+}
+
+.site-header .header-t .right .btn-search .form-holder .search-form input[type="search"]{
+	float: right;
+}
+
+.site-header .header-t .right .btn-search .form-holder .search-form input[type="submit"]{
+	float: left;
+}
+
+.main-navigation ul{
+	padding: 0;
+}
+
+.main-navigation ul li:hover > ul {
+    left: auto;
+    right: 0;
+    display: block;
+}
+
+.main-navigation ul ul li:hover > ul {
+    left: auto;
+    right: 100%;
+    display: block;
+}
+
+.site-header .site-branding{
+	float: right;
+}
+
+.site-header .advertise-holder{
+
+	float: left;
+}
+
+.featured-post .post, .featured-post .grid-sizer,
+.top-stories .col,
+#secondary .widget.widget_fluid_magazine_featured_posts .img-holder{
+	float: right;
+}
+
+#secondary .widget.widget_fluid_magazine_featured_posts .img-holder{
+	margin-left: 20px;
+	margin-right: 0;
+}
+
+.category-post .post,
+.category-post .post .post-thumbnail{
+	float: right;
+}
+
+.category-post .post .post-thumbnail{
+	margin-right: 0;
+	margin-left: 24px;
+}
+
+.widget.widget_search .search-form label,
+.widget.widget_search .search-form input[type="search"]{
+	float: right;
+}
+
+.widget.widget_search .search-form input[type="submit"]{
+	float: left;
+}
+
+#secondary .widget.widget_fluid_magazine_popular_posts ul li .post-thumbnail, #secondary .widget.widget_fluid_magazine_recent_posts ul li .post-thumbnail{
+	float: right;
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+.latest-blog .post .post-thumbnail{
+	float: right;
+	margin-right: 0;
+	margin-left: 39px;
+}
+
+.latest-blog .post .btn-readmore,
+.latest-blog .post .entry-header .entry-meta span{
+	float: right;
+}
+
+.latest-blog .post .entry-header .entry-meta span{
+	border-right: 0;
+	border-left: 1px solid #e6e6e6;
+	padding-right: 0;
+	padding-left: 10px;
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+.latest-blog .post:nth-child(2n) .post-thumbnail{
+	float: left;
+	margin-left: 0;
+	margin-right: 39px;
+
+}
+
+.footer-t .column{
+	float: right;
+}
+
+.footer-t .widget.widget_fluid_magazine_popular_posts ul li .post-thumbnail, .footer-t .widget.widget_fluid_magazine_recent_posts ul li .post-thumbnail{
+	margin-right: 0;
+	margin-left: 20px;
+	float: right;
+}
+
+.site-info .copyright{
+	float:right;
+}
+
+.site-info .by{
+	float: left;
+}
+
+.footer-t .widget.widget_fluid_magazine_social_networks ul li{
+	float: right;
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+.footer-t .widget ul li::before{
+	left: auto;
+	right: 0;
+	transform: rotateY(180deg);
+}
+
+.comments-area .comment-body .avatar{
+	float: right;
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+.comment-author{
+	float: right;
+}
+
+.comments-area .comment-body .comment-content,
+.comments-area .comment-body .reply{
+	margin-left: 0;
+	margin-right: 97px;
+}
+
+.comments-area .comment-list .children{
+	padding-left: 0;
+	padding-right: 97px;
+}
+
+.comments-area .comment-body .comment-metadata{
+	float: right;
+
+}
+
+.comments-area .comment-body .comment-metadata a{
+	display: inline-block;
+}
+
+.comments-area .comment-body .fn{
+	margin-left: 15px;
+	margin-right: 0;
+}
+
+.pagination a,
+.pagination .current{
+	float: right;
+
+}
+
+.footer-t .widget ul li{
+	padding-left: 0;
+	padding-right: 14px;
+}
+
+.pagination span{
+	margin-right: 0;
+	margin-left: 8px;
+}
+
+.search #primary .post .post-thumbnail, .search #primary .page .post-thumbnail{
+	float: right;
+	margin-left: 39px;
+	margin-right: 0;
+}
+
+.search #primary .post .btn-readmore, .search #primary .page .btn-readmore{
+	float: right;
+}
+
+.search #primary .post .text-holder, .search #primary .page .text-holder{
+	padding-left: 39px;
+	padding-right: 0;
+}
+
+.search #primary .post .entry-header .entry-meta .byline{
+	padding-left: 0;
+	padding-right: 10px;
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+.search #primary .post .entry-header .entry-meta .posted-on,
+.search #primary .post .entry-header .entry-meta .comments-link{
+	float:  left;
+}
+
+.search #primary .post .entry-header .entry-meta .comments-link{
+	padding-left: 0;
+	padding-right: 10px;
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+.search #primary .post .entry-header .entry-meta .byline{
+	border-left: 0;
+	border-right: 1px solid #e6e6e6;
+}
+
+.search #primary .post .entry-header .entry-meta .comments-link{
+	border-left: 0;
+	border-right: 1px solid #e6e6e6;
+}
+
+.wpcf7{
+	direction: rtl;
+}
+
+.error-page .search-form label,
+.error-page .search-form input[type="search"]{
+	float: right;
+}
+
+.error-page .search-form input[type="submit"]{
+	float: left;
+}
+
+#primary .post .entry-content table th, #primary .page .entry-content table th, #primary .post .entry-content table td, #primary .page .entry-content table td{
+	text-align: right;
+}

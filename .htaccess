@@ -1,0 +1,7 @@
+
+# BEGIN FRedirect_ErrorDocument
+# Les directives (lignes) entre « BEGIN FRedirect_ErrorDocument » et « END FRedirect_ErrorDocument » sont générées
+# dynamiquement, et doivent être modifiées uniquement via les filtres WordPress.
+# Toute modification des directives situées entre ces marqueurs sera surchargée.
+ErrorDocument 404 /index.php?error=404
+# END FRedirect_ErrorDocument

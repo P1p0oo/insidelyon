@@ -1,0 +1,852 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-12 09:57+0200\n"
+"PO-Revision-Date: 2017-05-13 10:00+0200\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"Last-Translator: \n"
+"Language: fr_FR\n"
+
+#: 404.php:26 fluid-magazine/404.php:26
+msgid "404!"
+msgstr "404 !"
+
+#: 404.php:27 fluid-magazine/404.php:27
+msgid "The requested page cannot be found"
+msgstr "La page demandée est introuvable"
+
+#: 404.php:28 fluid-magazine/404.php:28
+msgid ""
+"Sorry but the page you are looking for cannot be found. Take a moment and do "
+"a search below or start from our"
+msgstr ""
+"Nous sommes désolés, mais la page que vous recherchez n’existe pas. Utilisez "
+"notre moteur de recherche ou visitez notre"
+
+#: 404.php:29 fluid-magazine/404.php:29
+msgid "homepage."
+msgstr "page d’accueil."
+
+#: comments.php:31 fluid-magazine/comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "%2$s Comments"
+msgid_plural "%1$s Comments"
+msgstr[0] "%2$s commentaires"
+msgstr[1] "%1$s commentaire"
+
+#: comments.php:50 fluid-magazine/comments.php:50
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:53 fluid-magazine/comments.php:53
+msgid "Older Comments"
+msgstr "Commentaires plus anciens"
+
+#: comments.php:54 fluid-magazine/comments.php:54
+msgid "Newer Comments"
+msgstr "Commentaires plus récents"
+
+#: comments.php:67 fluid-magazine/comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#. Name of the template
+msgid "Home Page"
+msgstr "Page d’accueil"
+
+#: inc/custom-functions.php:45 fluid-magazine/inc/custom-functions.php:45
+msgid "Primary"
+msgstr ""
+
+#: inc/custom-functions.php:327 fluid-magazine/inc/custom-functions.php:327
+msgid "Name*"
+msgstr "Votre nom*"
+
+#: inc/custom-functions.php:328 fluid-magazine/inc/custom-functions.php:328
+msgid "Email*"
+msgstr "Votre e-mail*"
+
+#: inc/custom-functions.php:329 fluid-magazine/inc/custom-functions.php:329
+msgid "Website"
+msgstr "Votre site internet"
+
+#: inc/custom-functions.php:340 fluid-magazine/inc/custom-functions.php:340
+msgid "POST COMMENT"
+msgstr "ENVOYER"
+
+#: inc/custom-functions.php:341 fluid-magazine/inc/custom-functions.php:341
+msgid "Comment"
+msgstr "Votre commentaire"
+
+#: inc/extras.php:23 fluid-magazine/inc/extras.php:23
+#, php-format
+msgctxt "post author"
+msgid "By %s"
+msgstr "Par %s"
+
+#. %s: post title
+#: inc/extras.php:30 fluid-magazine/inc/extras.php:30
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Rédiger un commentaire"
+
+#. %s: Name of current post
+#. %s: Name of current post
+#: inc/extras.php:91 template-parts/content-page.php:38
+#: fluid-magazine/inc/extras.php:91
+#: fluid-magazine/template-parts/content-page.php:38
+#, php-format
+msgid "Edit %s"
+msgstr "Modifier %s"
+
+#: inc/extras.php:161 fluid-magazine/inc/extras.php:161
+#: inc/customizer/social.php:33 inc/widgets/widget-social-links.php:56
+#: inc/widgets/widget-social-links.php:99
+#: fluid-magazine/inc/customizer/social.php:33
+#: fluid-magazine/inc/widgets/widget-social-links.php:56
+#: fluid-magazine/inc/widgets/widget-social-links.php:99
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/extras.php:163 fluid-magazine/inc/extras.php:163
+#: inc/customizer/social.php:52 inc/widgets/widget-social-links.php:60
+#: inc/widgets/widget-social-links.php:109
+#: fluid-magazine/inc/customizer/social.php:52
+#: fluid-magazine/inc/widgets/widget-social-links.php:60
+#: fluid-magazine/inc/widgets/widget-social-links.php:109
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/extras.php:165 fluid-magazine/inc/extras.php:165
+#: inc/customizer/social.php:106 inc/widgets/widget-social-links.php:62
+#: inc/widgets/widget-social-links.php:114
+#: fluid-magazine/inc/customizer/social.php:106
+#: fluid-magazine/inc/widgets/widget-social-links.php:62
+#: fluid-magazine/inc/widgets/widget-social-links.php:114
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/extras.php:167 fluid-magazine/inc/extras.php:167
+#: inc/customizer/social.php:88 inc/widgets/widget-social-links.php:119
+#: fluid-magazine/inc/customizer/social.php:88
+#: fluid-magazine/inc/widgets/widget-social-links.php:119
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/extras.php:169 fluid-magazine/inc/extras.php:169
+#: inc/customizer/social.php:70 fluid-magazine/inc/customizer/social.php:70
+msgid "Google Plus"
+msgstr "Google +"
+
+#: inc/extras.php:171 fluid-magazine/inc/extras.php:171
+#: inc/customizer/social.php:124 inc/widgets/widget-social-links.php:58
+#: inc/widgets/widget-social-links.php:104
+#: fluid-magazine/inc/customizer/social.php:124
+#: fluid-magazine/inc/widgets/widget-social-links.php:58
+#: fluid-magazine/inc/widgets/widget-social-links.php:104
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/extras.php:173 fluid-magazine/inc/extras.php:173
+#: inc/customizer/social.php:142 inc/widgets/widget-social-links.php:66
+#: inc/widgets/widget-social-links.php:124
+#: fluid-magazine/inc/customizer/social.php:142
+#: fluid-magazine/inc/widgets/widget-social-links.php:66
+#: fluid-magazine/inc/widgets/widget-social-links.php:124
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/extras.php:189 fluid-magazine/inc/extras.php:189
+#: inc/customizer/breadcrumb.php:60
+#: fluid-magazine/inc/customizer/breadcrumb.php:60
+msgid "Home"
+msgstr "Accueil"
+
+#: inc/extras.php:212 fluid-magazine/inc/extras.php:212
+msgid "Search Results for \""
+msgstr "Résultats pour la recherche \""
+
+#: inc/extras.php:215 inc/extras.php:216 inc/extras.php:220 inc/extras.php:224
+#: fluid-magazine/inc/extras.php:215 fluid-magazine/inc/extras.php:216
+#: fluid-magazine/inc/extras.php:220 fluid-magazine/inc/extras.php:224
+msgid "Y"
+msgstr "A"
+
+#: inc/extras.php:216 fluid-magazine/inc/extras.php:216
+msgid "m"
+msgstr "M"
+
+#: inc/extras.php:216 inc/extras.php:221 fluid-magazine/inc/extras.php:216
+#: fluid-magazine/inc/extras.php:221
+msgid "F"
+msgstr ""
+
+#: inc/extras.php:217 fluid-magazine/inc/extras.php:217
+msgid "d"
+msgstr "J"
+
+#: inc/extras.php:262 fluid-magazine/inc/extras.php:262
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/extras.php:304 fluid-magazine/inc/extras.php:304
+msgid "404 Error - Page not Found"
+msgstr "Erreur 404 - Page introuvable"
+
+#: inc/extras.php:331 fluid-magazine/inc/extras.php:331
+msgid "Prev"
+msgstr "<"
+
+#: inc/extras.php:332 fluid-magazine/inc/extras.php:332
+msgid "Next"
+msgstr ">"
+
+#: inc/extras.php:333 fluid-magazine/inc/extras.php:333
+msgid "Page"
+msgstr "Page"
+
+#: inc/extras.php:395 inc/extras.php:640 template-parts/content-blog.php:22
+#: template-parts/content-blog.php:32 template-parts/content-search.php:32
+#: fluid-magazine/inc/extras.php:395 fluid-magazine/inc/extras.php:640
+#: fluid-magazine/template-parts/content-blog.php:22
+#: fluid-magazine/template-parts/content-blog.php:32
+#: fluid-magazine/template-parts/content-search.php:32
+#: inc/widgets/widget-featured-post.php:99
+#: inc/widgets/widget-featured-post.php:139
+#: fluid-magazine/inc/widgets/widget-featured-post.php:99
+#: fluid-magazine/inc/widgets/widget-featured-post.php:139
+msgid "Read More"
+msgstr "Lire la suite"
+
+#: inc/extras.php:436 fluid-magazine/inc/extras.php:436
+msgid "Go Down"
+msgstr "Plus bas"
+
+#: inc/extras.php:585 fluid-magazine/inc/extras.php:585
+msgid "Posted by"
+msgstr "Posté par"
+
+#: inc/extras.php:614 fluid-magazine/inc/extras.php:614
+msgid "Latest Blog"
+msgstr "Derniers articles"
+
+#: inc/info.php:24 fluid-magazine/inc/info.php:24
+msgid ""
+"<strong>Instruction for how to up Home Page in Fluid Magazine Theme</"
+"strong><br/>1. Go to Pages and create a new page (Title can be anything. For "
+"example, Home )<br/>\n"
+"2. In right column and under Page Attributes, choose “Home Page” template<br/"
+">\n"
+"3. Click on Publish<br/>\n"
+"4. Go to Appearance-> Customize -> Default Settings -> Static Front Page<br/"
+">\n"
+"5. Select A static page<br/>\n"
+"6. Under Front Page, select the page that you created in the step 1<br/>\n"
+"7. Save changes"
+msgstr ""
+
+#: inc/info.php:47 fluid-magazine/inc/info.php:47
+#: inc/customizer/advertisement.php:34
+#: fluid-magazine/inc/customizer/advertisement.php:34
+msgid "Enable Header Advertisement"
+msgstr ""
+
+#: inc/info.php:55 fluid-magazine/inc/info.php:55
+msgid "Information Links"
+msgstr ""
+
+#: inc/info.php:65 fluid-magazine/inc/info.php:65
+msgid "Need help?"
+msgstr "Besoin d’aide ?"
+
+#: inc/info.php:66 fluid-magazine/inc/info.php:66
+msgid "View demo"
+msgstr "Voir la démo"
+
+#: inc/info.php:66 inc/info.php:67 inc/info.php:68 inc/info.php:69
+#: inc/info.php:70 inc/info.php:71 fluid-magazine/inc/info.php:66
+#: fluid-magazine/inc/info.php:67 fluid-magazine/inc/info.php:68
+#: fluid-magazine/inc/info.php:69 fluid-magazine/inc/info.php:70
+#: fluid-magazine/inc/info.php:71
+msgid "here"
+msgstr "ici"
+
+#: inc/info.php:67 fluid-magazine/inc/info.php:67
+msgid "View documentation"
+msgstr "Voir la documentation"
+
+#: inc/info.php:68 fluid-magazine/inc/info.php:68
+msgid "Theme info"
+msgstr "Infos sur le thème"
+
+#: inc/info.php:69 fluid-magazine/inc/info.php:69
+msgid "Support ticket"
+msgstr ""
+
+#: inc/info.php:70 fluid-magazine/inc/info.php:70
+msgid "Rate this theme"
+msgstr "Noter ce thème"
+
+#: inc/info.php:71 fluid-magazine/inc/info.php:71
+msgid "More WordPress Themes"
+msgstr "Plus de thème WordPress"
+
+#: inc/info.php:75 fluid-magazine/inc/info.php:75
+msgid "About Fluid Magazine"
+msgstr "À propos de Fluid Magazine"
+
+#: inc/metabox.php:13 fluid-magazine/inc/metabox.php:13
+msgid "Sidebar Layout"
+msgstr "Apparence de la barre latérale"
+
+#: inc/metabox.php:23 fluid-magazine/inc/metabox.php:23
+msgid "Right sidebar (default)"
+msgstr "Barre latérale droite (par défaut)"
+
+#: inc/metabox.php:28 fluid-magazine/inc/metabox.php:28
+msgid "No sidebar"
+msgstr "Pas de barre latérale"
+
+#: inc/metabox.php:40 fluid-magazine/inc/metabox.php:40
+msgid "Choose Sidebar Template"
+msgstr "Choisir le template de barre latérale"
+
+#: inc/template-functions.php:229 fluid-magazine/inc/template-functions.php:229
+#, php-format
+msgid "Search Results for \"%s\""
+msgstr "Résultats de la recherche pour \"%s\""
+
+#: inc/template-functions.php:231 fluid-magazine/inc/template-functions.php:231
+msgid "404 - Page not Found"
+msgstr "404 - Page introuvable"
+
+#: inc/template-functions.php:571 fluid-magazine/inc/template-functions.php:571
+msgid "&copy; Copyright "
+msgstr "&copy; Copyright "
+
+#: inc/template-functions.php:573 fluid-magazine/inc/template-functions.php:573
+msgid "Fluid Magazine by Rara Theme"
+msgstr "Tous droits réservés"
+
+#: inc/template-functions.php:574 fluid-magazine/inc/template-functions.php:574
+#, php-format
+msgid "Powered by %s"
+msgstr "Webzine disponible en ligne exclusivement"
+
+#: inc/woocommerce-functions.php:37
+#: fluid-magazine/inc/woocommerce-functions.php:37
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/woocommerce-functions.php:39
+#: fluid-magazine/inc/woocommerce-functions.php:39
+msgid "Sidebar displaying only in woocommerce pages."
+msgstr ""
+
+#: template-parts/content-archive.php:29 template-parts/content-page.php:27
+#: template-parts/content.php:32
+#: fluid-magazine/template-parts/content-archive.php:29
+#: fluid-magazine/template-parts/content-page.php:27
+#: fluid-magazine/template-parts/content.php:32
+msgid "Pages:"
+msgstr "Pages :"
+
+#: template-parts/content-none.php:16
+#: fluid-magazine/template-parts/content-none.php:16
+msgid "Nothing Found"
+msgstr "Aucun résultat"
+
+#: template-parts/content-none.php:21
+#: fluid-magazine/template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:25
+#: fluid-magazine/template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:31
+#: fluid-magazine/template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content.php:27 fluid-magazine/template-parts/content.php:27
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/customizer/advertisement.php:15
+#: fluid-magazine/inc/customizer/advertisement.php:15
+msgid "Avertisement Settings"
+msgstr ""
+
+#: inc/customizer/advertisement.php:16
+#: fluid-magazine/inc/customizer/advertisement.php:16
+msgid "Header AD Settings"
+msgstr ""
+
+#: inc/customizer/advertisement.php:52
+#: fluid-magazine/inc/customizer/advertisement.php:52
+msgid "Open Link in Different Tab"
+msgstr ""
+
+#: inc/customizer/advertisement.php:72
+#: fluid-magazine/inc/customizer/advertisement.php:72
+msgid "Upload Header Advertisement"
+msgstr ""
+
+#: inc/customizer/advertisement.php:92
+#: fluid-magazine/inc/customizer/advertisement.php:92
+msgid "Header AD Link"
+msgstr ""
+
+#: inc/customizer/breadcrumb.php:14
+#: fluid-magazine/inc/customizer/breadcrumb.php:14
+msgid "Breadcrumb Settings"
+msgstr ""
+
+#: inc/customizer/breadcrumb.php:32
+#: fluid-magazine/inc/customizer/breadcrumb.php:32
+msgid "Enable Breadcrumb"
+msgstr ""
+
+#: inc/customizer/breadcrumb.php:50
+#: fluid-magazine/inc/customizer/breadcrumb.php:50
+msgid "Show current"
+msgstr ""
+
+#: inc/customizer/breadcrumb.php:68
+#: fluid-magazine/inc/customizer/breadcrumb.php:68
+msgid "Breadcrumb Home Text"
+msgstr ""
+
+#: inc/customizer/breadcrumb.php:86
+#: fluid-magazine/inc/customizer/breadcrumb.php:86
+msgid "Breadcrumb Separator"
+msgstr ""
+
+#: inc/customizer/custom.php:14 fluid-magazine/inc/customizer/custom.php:14
+msgid "Custom CSS Settings"
+msgstr ""
+
+#: inc/customizer/custom.php:32 fluid-magazine/inc/customizer/custom.php:32
+msgid "Custom Css"
+msgstr ""
+
+#: inc/customizer/custom.php:34 fluid-magazine/inc/customizer/custom.php:34
+msgid "Put your custom CSS"
+msgstr ""
+
+#: inc/customizer/customizer.php:23
+#: fluid-magazine/inc/customizer/customizer.php:23
+msgid "Choose Post"
+msgstr ""
+
+#: inc/customizer/customizer.php:40
+#: fluid-magazine/inc/customizer/customizer.php:40
+msgid "Choose Category"
+msgstr ""
+
+#: inc/customizer/default.php:17 fluid-magazine/inc/customizer/default.php:17
+msgid "Default Settings"
+msgstr ""
+
+#: inc/customizer/default.php:18 fluid-magazine/inc/customizer/default.php:18
+msgid "Default section provided by WordPress customizer."
+msgstr ""
+
+#: inc/customizer/header.php:15 fluid-magazine/inc/customizer/header.php:15
+msgid "Header Settings"
+msgstr ""
+
+#: inc/customizer/header.php:16 fluid-magazine/inc/customizer/header.php:16
+msgid "Header Search Settings"
+msgstr ""
+
+#: inc/customizer/header.php:33 fluid-magazine/inc/customizer/header.php:33
+msgid "Enable Search Form"
+msgstr ""
+
+#: inc/customizer/header.php:34 fluid-magazine/inc/customizer/header.php:34
+msgid "Check to enable Search Form in header."
+msgstr ""
+
+#: inc/customizer/home.php:16 fluid-magazine/inc/customizer/home.php:16
+msgid "Home Page Settings"
+msgstr ""
+
+#: inc/customizer/home.php:17 fluid-magazine/inc/customizer/home.php:17
+msgid "Customize Home Page Settings"
+msgstr ""
+
+#: inc/customizer/social.php:14 fluid-magazine/inc/customizer/social.php:14
+msgid "Social Settings"
+msgstr ""
+
+#: inc/customizer/social.php:15 fluid-magazine/inc/customizer/social.php:15
+msgid "Leave blank if you do not want to show the social link."
+msgstr ""
+
+#. Base ID
+#: inc/widgets/widget-featured-post.php:28
+#: fluid-magazine/inc/widgets/widget-featured-post.php:28
+msgid "RARA: Featured Post"
+msgstr ""
+
+#: inc/widgets/widget-featured-post.php:29
+#: fluid-magazine/inc/widgets/widget-featured-post.php:29
+msgid "A Featured Post Widget"
+msgstr ""
+
+#: inc/widgets/widget-featured-post.php:87
+#: inc/widgets/widget-slider-post.php:113
+#: fluid-magazine/inc/widgets/widget-featured-post.php:87
+#: fluid-magazine/inc/widgets/widget-slider-post.php:113
+msgid "&mdash;Choose&mdash;"
+msgstr ""
+
+#: inc/widgets/widget-featured-post.php:104
+#: inc/widgets/widget-slider-post.php:142
+#: inc/widgets/widget-slider-post.php:151
+#: inc/widgets/widget-slider-post.php:160
+#: fluid-magazine/inc/widgets/widget-featured-post.php:104
+#: fluid-magazine/inc/widgets/widget-slider-post.php:142
+#: fluid-magazine/inc/widgets/widget-slider-post.php:151
+#: fluid-magazine/inc/widgets/widget-slider-post.php:160
+msgid "Posts"
+msgstr ""
+
+#: inc/widgets/widget-featured-post.php:114
+#: fluid-magazine/inc/widgets/widget-featured-post.php:114
+msgid "Read More Text"
+msgstr ""
+
+#: inc/widgets/widget-featured-post.php:120
+#: inc/widgets/widget-popular-post.php:120
+#: inc/widgets/widget-recent-post.php:121
+#: fluid-magazine/inc/widgets/widget-featured-post.php:120
+#: fluid-magazine/inc/widgets/widget-popular-post.php:120
+#: fluid-magazine/inc/widgets/widget-recent-post.php:121
+msgid "Show Post Thumbnail"
+msgstr ""
+
+#. Base ID
+#: inc/widgets/widget-popular-post.php:26
+#: fluid-magazine/inc/widgets/widget-popular-post.php:26
+msgid "RARA: Popular Post"
+msgstr ""
+
+#: inc/widgets/widget-popular-post.php:27
+#: fluid-magazine/inc/widgets/widget-popular-post.php:27
+msgid "A Popular Post Widget"
+msgstr ""
+
+#: inc/widgets/widget-popular-post.php:109
+#: inc/widgets/widget-recent-post.php:110
+#: inc/widgets/widget-slider-post.php:137
+#: inc/widgets/widget-social-links.php:94
+#: fluid-magazine/inc/widgets/widget-popular-post.php:109
+#: fluid-magazine/inc/widgets/widget-recent-post.php:110
+#: fluid-magazine/inc/widgets/widget-slider-post.php:137
+#: fluid-magazine/inc/widgets/widget-social-links.php:94
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/widget-popular-post.php:114
+#: inc/widgets/widget-recent-post.php:115
+#: fluid-magazine/inc/widgets/widget-popular-post.php:114
+#: fluid-magazine/inc/widgets/widget-recent-post.php:115
+msgid "Number of Posts"
+msgstr ""
+
+#: inc/widgets/widget-popular-post.php:125
+#: inc/widgets/widget-recent-post.php:126
+#: fluid-magazine/inc/widgets/widget-popular-post.php:125
+#: fluid-magazine/inc/widgets/widget-recent-post.php:126
+msgid "Show Post Date"
+msgstr ""
+
+#. Base ID
+#: inc/widgets/widget-recent-post.php:27
+#: fluid-magazine/inc/widgets/widget-recent-post.php:27
+msgid "RARA: Recent Post"
+msgstr ""
+
+#: inc/widgets/widget-recent-post.php:28
+#: fluid-magazine/inc/widgets/widget-recent-post.php:28
+msgid "A Recent Post Widget"
+msgstr ""
+
+#. Base ID
+#: inc/widgets/widget-slider-post.php:27
+#: fluid-magazine/inc/widgets/widget-slider-post.php:27
+msgid "RARA: Slider Post"
+msgstr ""
+
+#: inc/widgets/widget-slider-post.php:28
+#: fluid-magazine/inc/widgets/widget-slider-post.php:28
+msgid "A Slider Post Widget"
+msgstr ""
+
+#: inc/widgets/widget-slider-post.php:170
+#: fluid-magazine/inc/widgets/widget-slider-post.php:170
+msgid "Show Post Caption"
+msgstr ""
+
+#: inc/widgets/widget-slider-post.php:174
+#: fluid-magazine/inc/widgets/widget-slider-post.php:174
+msgid "Show Post content"
+msgstr ""
+
+#. Base ID
+#: inc/widgets/widget-social-links.php:26
+#: fluid-magazine/inc/widgets/widget-social-links.php:26
+msgid "RARA: Social Networks"
+msgstr ""
+
+#: inc/widgets/widget-social-links.php:27
+#: fluid-magazine/inc/widgets/widget-social-links.php:27
+msgid "A Social Networks Widget"
+msgstr ""
+
+#: inc/widgets/widget-social-links.php:64
+#: fluid-magazine/inc/widgets/widget-social-links.php:64
+msgid "Linkedin"
+msgstr ""
+
+#: inc/widgets/widgets.php:17 fluid-magazine/inc/widgets/widgets.php:17
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/widgets/widgets.php:19 fluid-magazine/inc/widgets/widgets.php:19
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/widgets/widgets.php:22 fluid-magazine/inc/widgets/widgets.php:22
+msgid "Footer One"
+msgstr ""
+
+#: inc/widgets/widgets.php:24 fluid-magazine/inc/widgets/widgets.php:24
+msgid "Add footer one widgets."
+msgstr ""
+
+#: inc/widgets/widgets.php:27 fluid-magazine/inc/widgets/widgets.php:27
+msgid "Footer Two"
+msgstr ""
+
+#: inc/widgets/widgets.php:29 fluid-magazine/inc/widgets/widgets.php:29
+msgid "Add footer two widgets."
+msgstr ""
+
+#: inc/widgets/widgets.php:32 fluid-magazine/inc/widgets/widgets.php:32
+msgid "Footer Three"
+msgstr ""
+
+#: inc/widgets/widgets.php:34 fluid-magazine/inc/widgets/widgets.php:34
+msgid "Add footer three widgets."
+msgstr ""
+
+#: inc/widgets/widgets.php:37 fluid-magazine/inc/widgets/widgets.php:37
+msgid "Footer Four"
+msgstr ""
+
+#: inc/widgets/widgets.php:39 fluid-magazine/inc/widgets/widgets.php:39
+msgid "Add footer four widgets."
+msgstr ""
+
+#: inc/customizer/home/category.php:16
+#: fluid-magazine/inc/customizer/home/category.php:16
+msgid "Category Post Section"
+msgstr ""
+
+#: inc/customizer/home/category.php:34
+#: fluid-magazine/inc/customizer/home/category.php:34
+msgid "Select First Category"
+msgstr ""
+
+#: inc/customizer/home/category.php:53
+#: fluid-magazine/inc/customizer/home/category.php:53
+msgid "Select Second Category"
+msgstr ""
+
+#: inc/customizer/home/category.php:72
+#: fluid-magazine/inc/customizer/home/category.php:72
+msgid "Select Latest Blog Category"
+msgstr ""
+
+#: inc/customizer/home/category.php:74
+#: fluid-magazine/inc/customizer/home/category.php:74
+msgid "If blog category is not selected, the latest posts will be displayed."
+msgstr ""
+
+#: inc/customizer/home/featured.php:18
+#: fluid-magazine/inc/customizer/home/featured.php:18
+msgid "Featured Post Section"
+msgstr ""
+
+#: inc/customizer/home/featured.php:36
+#: fluid-magazine/inc/customizer/home/featured.php:36
+msgid "Enable Featured Post Section"
+msgstr ""
+
+#: inc/customizer/home/featured.php:37
+#: fluid-magazine/inc/customizer/home/featured.php:37
+msgid "Select category for featured section."
+msgstr ""
+
+#: inc/customizer/home/featured.php:55
+#: fluid-magazine/inc/customizer/home/featured.php:55
+msgid "Hide Featured Post Category"
+msgstr ""
+
+#: inc/customizer/home/featured.php:73
+#: fluid-magazine/inc/customizer/home/featured.php:73
+msgid "Select Category"
+msgstr ""
+
+#: inc/customizer/home/featured.php:75
+#: fluid-magazine/inc/customizer/home/featured.php:75
+msgid ""
+"We recommend to have 4 or 8 posts in the select category, and each featured "
+"images to be at least of size 1291px *960px for consistent design."
+msgstr ""
+
+#: inc/customizer/home/slider.php:15
+#: fluid-magazine/inc/customizer/home/slider.php:15
+msgid "Slider Settings"
+msgstr ""
+
+#: inc/customizer/home/slider.php:33
+#: fluid-magazine/inc/customizer/home/slider.php:33
+msgid "Enable Home Page Slider"
+msgstr ""
+
+#: inc/customizer/home/slider.php:51
+#: fluid-magazine/inc/customizer/home/slider.php:51
+msgid "Enable Slider Auto Transition"
+msgstr ""
+
+#: inc/customizer/home/slider.php:69
+#: fluid-magazine/inc/customizer/home/slider.php:69
+msgid "Enable Slider Caption"
+msgstr ""
+
+#: inc/customizer/home/slider.php:87
+#: fluid-magazine/inc/customizer/home/slider.php:87
+msgid "Choose Slider Animation"
+msgstr ""
+
+#: inc/customizer/home/slider.php:91
+#: fluid-magazine/inc/customizer/home/slider.php:91
+msgid "fade"
+msgstr ""
+
+#: inc/customizer/home/slider.php:92
+#: fluid-magazine/inc/customizer/home/slider.php:92
+msgid "slide"
+msgstr ""
+
+#: inc/customizer/home/slider.php:110
+#: fluid-magazine/inc/customizer/home/slider.php:110
+msgid "Slider Speed"
+msgstr ""
+
+#: inc/customizer/home/slider.php:128
+#: fluid-magazine/inc/customizer/home/slider.php:128
+msgid "Animation Speed"
+msgstr ""
+
+#: inc/customizer/home/slider.php:138
+#: fluid-magazine/inc/customizer/home/slider.php:138
+msgid "Learn More"
+msgstr ""
+
+#: inc/customizer/home/slider.php:146
+#: fluid-magazine/inc/customizer/home/slider.php:146
+msgid "Readmore Text"
+msgstr ""
+
+#: inc/customizer/home/slider.php:164
+#: fluid-magazine/inc/customizer/home/slider.php:164
+msgid "Choose Slider Category"
+msgstr ""
+
+#: inc/customizer/home/stories.php:16
+#: fluid-magazine/inc/customizer/home/stories.php:16
+msgid "Top Stories Section"
+msgstr ""
+
+#: inc/customizer/home/stories.php:34
+#: fluid-magazine/inc/customizer/home/stories.php:34
+msgid "Enable Top Stories Section"
+msgstr ""
+
+#: inc/customizer/home/stories.php:44
+#: fluid-magazine/inc/customizer/home/stories.php:44
+msgid "Top Stories"
+msgstr ""
+
+#: inc/customizer/home/stories.php:52
+#: fluid-magazine/inc/customizer/home/stories.php:52
+msgid "Top Stories Section Title"
+msgstr ""
+
+#: inc/customizer/home/stories.php:71
+#: fluid-magazine/inc/customizer/home/stories.php:71
+msgid "Select Top Stories Category"
+msgstr ""
+
+#. Name of the theme
+msgid "Fluid Magazine"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Fluid Magazine is a responsive magazine WordPress theme that will help you "
+"create a gorgeous WordPress site that your visitors will adore.  It is "
+"suitable for news, newspaper, magazine, food, technology, viral content "
+"websites. This beautifully designed theme is loaded with awesome features "
+"that you can exploit in building a unique magazine theme. Fluid Magazine has "
+"completely fluid responsive layout design that would adapt to various screen "
+"sizes and make it look stunning on every device. The theme is SEO friendly "
+"with optimized codes, which make it easy for your site to rank on Google and "
+"other search engines. Fluid Magazine comes with several features to make "
+"user-friendly, interactive and visually stunning website. It has optimally "
+"placed Advertisement space that complements the theme design. It has four "
+"footer areas and a right sidebar and includes four custom widgets for the "
+"recent posts, popular posts, social media and the featured post. The theme "
+"is rigorously tested and optimized for speed and faster page load time and "
+"has a secure and clean code. The theme is also translation ready. Designed "
+"with visitor engagement in mind, Fluid Magazine helps you to easily and "
+"intuitively create appealing online Magazine websites. Check the demo at "
+"https://raratheme.com/preview/fluid-magazine/, documentation at https://"
+"raratheme.com/documentation/fluid-magazine/  and get support at https://"
+"raratheme.com/support-ticket."
+msgstr ""
+
+#. URI of the theme
+msgid "http://raratheme.com/wordpress-themes/fluid-magazine/"
+msgstr ""
+
+#. Author of the theme
+msgid "Rara Themes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://raratheme.com/"
+msgstr ""

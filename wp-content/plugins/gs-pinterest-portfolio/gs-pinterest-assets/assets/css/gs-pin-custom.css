@@ -1,0 +1,32 @@
+.gs_pin_area .gs-pins {
+  margin: 0;
+  padding: 0;
+}
+.gs-pins .gs-single-pin {
+  list-style-type: none;
+}
+.gs_pin_theme1 .gs-pins .gs-single-pin {
+  line-height: 0;
+}
+
+.gs-pin-details img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 540px) {
+  ul.gs-pins {
+    column-count: 2;
+  }
+}
+
+@media only screen and (max-width : 480px) {
+
+	ul.gs-pins { /* Masonry container */
+	-moz-column-count: 1;
+	-webkit-column-count: 1;
+	column-count: 1;
+	}
+	.gs_pin_theme1 .gs-pins .gs-single-pin {
+	    width: 100%;
+	}
+}
