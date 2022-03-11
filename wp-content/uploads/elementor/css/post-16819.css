@@ -1,16 +1,100 @@
-.elementor-kit-16819{--e-global-color-primary:#1A00DE;--e-global-color-secondary:#FA7268;--e-global-color-text:#000000;--e-global-color-accent:#FBEBE7;--e-global-color-9745acc:#09004F;--e-global-color-6b6edd0:#727272;--e-global-typography-primary-font-family:"Adrianna";--e-global-typography-primary-font-size:48px;--e-global-typography-primary-font-weight:700;--e-global-typography-primary-text-transform:none;--e-global-typography-primary-font-style:normal;--e-global-typography-primary-line-height:52px;--e-global-typography-secondary-font-family:"Adrianna";--e-global-typography-secondary-font-size:24px;--e-global-typography-secondary-font-weight:500;--e-global-typography-secondary-font-style:normal;--e-global-typography-secondary-line-height:32px;--e-global-typography-text-font-family:"Adrianna";--e-global-typography-text-font-size:18px;--e-global-typography-text-font-weight:400;--e-global-typography-text-font-style:normal;--e-global-typography-text-line-height:28px;--e-global-typography-accent-font-family:"Adrianna";--e-global-typography-accent-font-size:24px;--e-global-typography-accent-font-weight:500;--e-global-typography-accent-text-transform:uppercase;--e-global-typography-accent-font-style:normal;--e-global-typography-accent-line-height:26px;--e-global-typography-accent-letter-spacing:0.15px;--e-global-typography-83b23b5-font-family:"Adrianna";--e-global-typography-83b23b5-font-size:16px;--e-global-typography-83b23b5-font-weight:500;--e-global-typography-83b23b5-line-height:17px;--e-global-typography-e69ac5b-font-family:"Magicline";--e-global-typography-e69ac5b-font-size:32px;--e-global-typography-e69ac5b-font-weight:400;--e-global-typography-e69ac5b-line-height:56px;--e-global-typography-b1a804f-font-family:"Adrianna";--e-global-typography-b1a804f-font-size:18px;--e-global-typography-b1a804f-font-weight:400;--e-global-typography-b1a804f-line-height:28px;--e-global-typography-4026a3f-font-family:"Magicline";--e-global-typography-4026a3f-font-size:44px;--e-global-typography-4026a3f-font-weight:400;--e-global-typography-4026a3f-line-height:75px;--e-global-typography-9f712e6-font-family:"Magicline";--e-global-typography-9f712e6-font-size:112px;--e-global-typography-9f712e6-font-weight:400;--e-global-typography-ad45d2f-font-family:"Adrianna";--e-global-typography-ad45d2f-font-size:18px;--e-global-typography-ad45d2f-font-weight:400;--e-global-typography-ad45d2f-line-height:28px;--e-global-typography-ec4a1f8-font-family:"Adrianna";--e-global-typography-ec4a1f8-font-size:12px;--e-global-typography-ec4a1f8-font-weight:400;--e-global-typography-ec4a1f8-line-height:13px;color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-size:var( --e-global-typography-text-font-size );font-weight:var( --e-global-typography-text-font-weight );font-style:var( --e-global-typography-text-font-style );line-height:var( --e-global-typography-text-line-height );}.elementor-kit-16819 a{color:var( --e-global-color-primary );}.elementor-kit-16819 h2{color:var( --e-global-color-text );font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-size:var( --e-global-typography-accent-font-size );font-weight:var( --e-global-typography-accent-font-weight );text-transform:var( --e-global-typography-accent-text-transform );font-style:var( --e-global-typography-accent-font-style );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.elementor-widget:not(:last-child){margin-bottom:20px;}{}h1.entry-title{display:var(--page-title-display);}.site-header{padding-right:0px;padding-left:0px;}@media(max-width:1024px){.elementor-kit-16819{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-kit-16819 h2{font-size:var( --e-global-typography-accent-font-size );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}}@media(max-width:767px){.elementor-kit-16819{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-kit-16819 h2{font-size:var( --e-global-typography-accent-font-size );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}}/* Start Custom Fonts CSS */@font-face {
+.elementor-kit-16819{--e-global-color-primary:#1A00DE;--e-global-color-secondary:#FA7268;--e-global-color-text:#0A0055;--e-global-color-accent:#FBEBE7;--e-global-color-6b6edd0:#827BAF;--e-global-color-07ed730:#F39E3D;--e-global-typography-primary-font-family:"Adrianna";--e-global-typography-primary-font-size:48px;--e-global-typography-primary-font-weight:700;--e-global-typography-primary-text-transform:none;--e-global-typography-primary-font-style:normal;--e-global-typography-primary-line-height:52px;--e-global-typography-secondary-font-family:"Adrianna";--e-global-typography-secondary-font-size:24px;--e-global-typography-secondary-font-weight:500;--e-global-typography-secondary-font-style:normal;--e-global-typography-secondary-line-height:32px;--e-global-typography-text-font-family:"Adrianna";--e-global-typography-text-font-size:18px;--e-global-typography-text-font-weight:400;--e-global-typography-text-font-style:normal;--e-global-typography-text-line-height:28px;--e-global-typography-accent-font-family:"Adrianna";--e-global-typography-accent-font-size:24px;--e-global-typography-accent-font-weight:500;--e-global-typography-accent-text-transform:uppercase;--e-global-typography-accent-font-style:normal;--e-global-typography-accent-line-height:26px;--e-global-typography-accent-letter-spacing:0.15px;--e-global-typography-83b23b5-font-family:"Adrianna";--e-global-typography-83b23b5-font-size:16px;--e-global-typography-83b23b5-font-weight:500;--e-global-typography-83b23b5-line-height:17px;--e-global-typography-e69ac5b-font-family:"Magicline";--e-global-typography-e69ac5b-font-size:32px;--e-global-typography-e69ac5b-font-weight:400;--e-global-typography-e69ac5b-line-height:56px;--e-global-typography-b1a804f-font-family:"Adrianna";--e-global-typography-b1a804f-font-size:18px;--e-global-typography-b1a804f-font-weight:400;--e-global-typography-b1a804f-line-height:28px;--e-global-typography-4026a3f-font-family:"Magicline";--e-global-typography-4026a3f-font-size:44px;--e-global-typography-4026a3f-font-weight:400;--e-global-typography-4026a3f-line-height:75px;--e-global-typography-9f712e6-font-family:"Magicline";--e-global-typography-9f712e6-font-size:112px;--e-global-typography-9f712e6-font-weight:400;--e-global-typography-ad45d2f-font-family:"Adrianna";--e-global-typography-ad45d2f-font-size:18px;--e-global-typography-ad45d2f-font-weight:400;--e-global-typography-ad45d2f-line-height:28px;--e-global-typography-ec4a1f8-font-family:"Adrianna";--e-global-typography-ec4a1f8-font-size:12px;--e-global-typography-ec4a1f8-font-weight:400;--e-global-typography-ec4a1f8-line-height:13px;color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-size:var( --e-global-typography-text-font-size );font-weight:var( --e-global-typography-text-font-weight );font-style:var( --e-global-typography-text-font-style );line-height:var( --e-global-typography-text-line-height );}.elementor-kit-16819 a{color:var( --e-global-color-primary );}.elementor-kit-16819 h1{color:var( --e-global-color-secondary );font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-size:var( --e-global-typography-primary-font-size );font-weight:var( --e-global-typography-primary-font-weight );text-transform:var( --e-global-typography-primary-text-transform );font-style:var( --e-global-typography-primary-font-style );line-height:var( --e-global-typography-primary-line-height );}.elementor-kit-16819 h2{color:var( --e-global-color-text );font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-size:var( --e-global-typography-accent-font-size );font-weight:var( --e-global-typography-accent-font-weight );text-transform:var( --e-global-typography-accent-text-transform );font-style:var( --e-global-typography-accent-font-style );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-kit-16819 h3{color:#0A0055;font-family:"Adrianna", Sans-serif;font-size:21px;font-weight:500;font-style:normal;line-height:26px;letter-spacing:0.15px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.elementor-widget:not(:last-child){margin-bottom:20px;}{}h1.entry-title{display:var(--page-title-display);}.site-header{padding-right:0px;padding-left:0px;}@media(max-width:1024px){.elementor-kit-16819{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-kit-16819 h1{font-size:var( --e-global-typography-primary-font-size );line-height:var( --e-global-typography-primary-line-height );}.elementor-kit-16819 h2{font-size:var( --e-global-typography-accent-font-size );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}}@media(max-width:767px){.elementor-kit-16819{--e-global-typography-primary-font-size:28px;--e-global-typography-secondary-font-size:20px;--e-global-typography-secondary-line-height:28px;--e-global-typography-text-font-size:16px;--e-global-typography-text-line-height:26px;--e-global-typography-accent-font-size:18px;--e-global-typography-accent-line-height:19px;--e-global-typography-e69ac5b-font-size:26px;--e-global-typography-b1a804f-font-size:16px;--e-global-typography-4026a3f-font-size:26px;--e-global-typography-4026a3f-line-height:44px;--e-global-typography-9f712e6-font-size:92px;--e-global-typography-ad45d2f-font-size:16px;--e-global-typography-ad45d2f-line-height:26px;--e-global-typography-ec4a1f8-font-size:12px;--e-global-typography-ec4a1f8-line-height:13px;font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-kit-16819 h1{font-size:var( --e-global-typography-primary-font-size );line-height:var( --e-global-typography-primary-line-height );}.elementor-kit-16819 h2{font-size:var( --e-global-typography-accent-font-size );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-kit-16819 h3{font-size:18px;line-height:19px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}}/* Start Custom Fonts CSS */@font-face {
 	font-family: 'Adrianna';
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 700;
 	font-display: auto;
-	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Regular.woff') format('woff');
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: italic;
+	font-weight: bold;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Demibold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: italic;
+	font-weight: 600;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-DemiboldItalic.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'Adrianna';
 	font-style: normal;
 	font-weight: normal;
 	font-display: auto;
-	src: ;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: normal;
+	font-weight: 800;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Extrabold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: italic;
+	font-weight: 800;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-ExtraboldItalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: italic;
+	font-weight: 300;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-LightItalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: normal;
+	font-weight: 100;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Thin.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: italic;
+	font-weight: 100;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-ThinItalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Regular.ttf') format('truetype');
 }
 /* End Custom Fonts CSS */
 /* Start Custom Fonts CSS */@font-face {

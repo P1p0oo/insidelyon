@@ -1,0 +1,99 @@
+.elementor-17682 .elementor-element.elementor-element-ea19700{font-size:12px;font-weight:400;color:#FA7268;}.elementor-17682 .elementor-element.elementor-element-ea19700 a{color:#F24343;}.elementor-17682 .elementor-element.elementor-element-c51d47a .elementor-posts-container .elementor-post__thumbnail{padding-bottom:calc( 0.66 * 100% );}.elementor-17682 .elementor-element.elementor-element-c51d47a:after{content:"0.66";}.elementor-17682 .elementor-element.elementor-element-c51d47a .elementor-post__thumbnail__link{width:100%;}.elementor-17682 .elementor-element.elementor-element-c51d47a .elementor-post__meta-data span + span:before{content:"///";}.elementor-17682 .elementor-element.elementor-element-c51d47a{--grid-column-gap:30px;--grid-row-gap:35px;}.elementor-17682 .elementor-element.elementor-element-c51d47a.elementor-posts--thumbnail-left .elementor-post__thumbnail__link{margin-right:20px;}.elementor-17682 .elementor-element.elementor-element-c51d47a.elementor-posts--thumbnail-right .elementor-post__thumbnail__link{margin-left:20px;}.elementor-17682 .elementor-element.elementor-element-c51d47a.elementor-posts--thumbnail-top .elementor-post__thumbnail__link{margin-bottom:20px;}.elementor-17682 .elementor-element.elementor-element-c51d47a .elementor-post__title, .elementor-17682 .elementor-element.elementor-element-c51d47a .elementor-post__title a{color:var( --e-global-color-secondary );font-family:"Adrianna", Sans-serif;font-size:18px;font-weight:500;font-style:normal;letter-spacing:0.15px;}.elementor-17682 .elementor-element.elementor-element-c51d47a .elementor-post__meta-data{color:var( --e-global-color-6b6edd0 );line-height:1.3em;}.elementor-17682 .elementor-element.elementor-element-c51d47a .elementor-post__excerpt p{color:var( --e-global-color-text );}.elementor-17682 .elementor-element.elementor-element-c51d47a .elementor-pagination{text-align:center;}.elementor-17682 .elementor-element.elementor-element-c51d47a .elementor-pagination .page-numbers:not(.dots){color:var( --e-global-color-primary );}body:not(.rtl) .elementor-17682 .elementor-element.elementor-element-c51d47a .elementor-pagination .page-numbers:not(:first-child){margin-left:calc( 10px/2 );}body:not(.rtl) .elementor-17682 .elementor-element.elementor-element-c51d47a .elementor-pagination .page-numbers:not(:last-child){margin-right:calc( 10px/2 );}body.rtl .elementor-17682 .elementor-element.elementor-element-c51d47a .elementor-pagination .page-numbers:not(:first-child){margin-right:calc( 10px/2 );}body.rtl .elementor-17682 .elementor-element.elementor-element-c51d47a .elementor-pagination .page-numbers:not(:last-child){margin-left:calc( 10px/2 );}@media(max-width:767px){.elementor-17682 .elementor-element.elementor-element-ea19700 > .elementor-widget-container{margin:0px 0px 0px 0px;}.elementor-17682 .elementor-element.elementor-element-c51d47a .elementor-posts-container .elementor-post__thumbnail{padding-bottom:calc( 0.5 * 100% );}.elementor-17682 .elementor-element.elementor-element-c51d47a:after{content:"0.5";}.elementor-17682 .elementor-element.elementor-element-c51d47a .elementor-post__thumbnail__link{width:100%;}.elementor-17682 .elementor-element.elementor-element-c51d47a .elementor-post__title, .elementor-17682 .elementor-element.elementor-element-c51d47a .elementor-post__title a{font-size:18px;line-height:19px;}}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Adrianna';
+	font-style: normal;
+	font-weight: 700;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: italic;
+	font-weight: bold;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Demibold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: italic;
+	font-weight: 600;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-DemiboldItalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: normal;
+	font-weight: 800;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Extrabold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: italic;
+	font-weight: 800;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-ExtraboldItalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: italic;
+	font-weight: 300;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-LightItalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: normal;
+	font-weight: 100;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Thin.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: italic;
+	font-weight: 100;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-ThinItalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Regular.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */
