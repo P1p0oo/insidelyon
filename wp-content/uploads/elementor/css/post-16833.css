@@ -199,6 +199,9 @@ color: inherit;
 .show-header#mobile-header-btn{
     transform: rotate(90deg)
 }/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-efc4c0a */.elementor-16833 .elementor-element.elementor-element-efc4c0a {
+    border-bottom: solid 1px #FFF1ED;
+}/* End custom CSS */
 /* Start custom CSS for search-form, class: .elementor-element-3662c98 */#searchbar-mobile .elementor-search-form button{
     border-radius: 50px;
 }
