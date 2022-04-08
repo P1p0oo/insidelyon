@@ -84,7 +84,7 @@ class AnWP_Post_Grid_Element_Simple_Slider extends Widget_Base {
 	 * @since  0.1.0
 	 * @access protected
 	 */
-	protected function _register_controls() { // phpcs:ignore PSR2.Methods.MethodDeclaration.Underscore
+	protected function register_controls() { // phpcs:ignore PSR2.Methods.MethodDeclaration.Underscore
 
 		/**
 		 * Before start of controls.
@@ -424,6 +424,19 @@ class AnWP_Post_Grid_Element_Simple_Slider extends Widget_Base {
 						'required' => false,
 						'default'  => 1,
 					],
+				],
+			]
+		);
+
+		$this->add_control(
+			'loop',
+			[
+				'label'   => __( 'Continuous loop mode', 'anwp-post-grid' ),
+				'type'    => Controls_Manager::SELECT,
+				'default' => 'no',
+				'options' => [
+					'yes' => __( 'Yes', 'anwp-post-grid' ),
+					'no'  => __( 'No', 'anwp-post-grid' ),
 				],
 			]
 		);

@@ -1,4 +1,4 @@
-# Copyright (C) 2021 AnWP Post Grid
+# Copyright (C) 2022 AnWP Post Grid
 # This file is distributed under the same license as the AnWP Post Grid package.
 msgid ""
 msgstr ""
@@ -13,15 +13,15 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: anwp-post-grid-for-elementor/admin/views/settings.php:17, anwp-post-grid-for-elementor/admin/views/support.php:17, anwp-post-grid-for-elementor/class-anwp-post-grid.php:723, anwp-post-grid-for-elementor/class-anwp-post-grid.php:738, anwp-post-grid-for-elementor/class-anwp-post-grid.php:753
+#: anwp-post-grid-for-elementor/admin/views/settings.php:17, anwp-post-grid-for-elementor/admin/views/support.php:17, anwp-post-grid-for-elementor/class-anwp-post-grid.php:781, anwp-post-grid-for-elementor/class-anwp-post-grid.php:796, anwp-post-grid-for-elementor/class-anwp-post-grid.php:811
 msgid "You do not have sufficient permissions to access this page."
 msgstr ""
 
-#: anwp-post-grid-for-elementor/admin/views/settings.php:24, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:143, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:213, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:240, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:252, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:264, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:453, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:501, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:567, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:649, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:143, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:229, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:248, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:275, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:287, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:561, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:637, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:703, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:785, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:143, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:200, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:219, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:246, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:258, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:525, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:580, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:682, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:846, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:123, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:221, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:248, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:260, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:142, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:249, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:276, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:288, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:452, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:534, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:143, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:271, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:298, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:310, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:472, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:554, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:143, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:222, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:249, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:261, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:438, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:602
+#: anwp-post-grid-for-elementor/admin/views/settings.php:24, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:143, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:213, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:240, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:252, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:264, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:453, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:501, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:567, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:649, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:143, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:229, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:248, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:275, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:287, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:561, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:637, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:703, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:785, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:143, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:200, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:219, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:246, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:258, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:525, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:580, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:682, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:707, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:859, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:139, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:216, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:243, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:255, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:387, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:400, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:413, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:563, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:123, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:221, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:248, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:260, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:142, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:249, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:276, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:288, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:452, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:534, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:143, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:271, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:298, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:310, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:472, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:554, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:143, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:222, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:249, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:261, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:438, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:451, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:615
 msgid "Yes"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/admin/views/settings.php:25, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:144, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:214, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:241, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:253, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:265, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:454, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:502, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:568, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:650, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:144, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:230, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:249, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:276, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:288, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:562, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:638, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:704, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:786, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:144, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:201, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:220, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:247, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:259, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:526, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:581, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:683, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:847, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:124, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:222, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:249, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:261, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:143, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:250, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:277, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:289, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:453, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:535, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:144, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:272, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:299, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:311, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:473, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:555, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:144, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:223, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:250, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:262, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:439, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:603
+#: anwp-post-grid-for-elementor/admin/views/settings.php:25, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:144, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:214, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:241, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:253, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:265, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:454, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:502, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:568, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:650, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:144, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:230, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:249, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:276, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:288, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:562, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:638, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:704, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:786, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:144, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:201, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:220, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:247, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:259, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:526, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:581, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:683, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:708, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:860, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:140, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:217, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:244, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:256, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:388, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:401, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:414, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:564, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:124, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:222, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:249, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:261, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:143, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:250, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:277, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:289, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:453, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:535, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:144, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:272, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:299, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:311, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:473, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:555, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:144, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:223, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:250, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:262, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:439, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:452, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:616
 msgid "No"
 msgstr ""
 
@@ -86,22 +86,38 @@ msgid "Change default category ordering."
 msgstr ""
 
 #: anwp-post-grid-for-elementor/admin/views/settings.php:52
-msgid "Default Featured Image"
+msgid "Image Rendering"
 msgstr ""
 
 #: anwp-post-grid-for-elementor/admin/views/settings.php:53
-msgid "Selected image will be used in posts when no featured image is set."
+msgid "Change image rendering container"
 msgstr ""
 
 #: anwp-post-grid-for-elementor/admin/views/settings.php:56
-msgid "Post Icons"
+msgid "Default Featured Image"
 msgstr ""
 
 #: anwp-post-grid-for-elementor/admin/views/settings.php:57
+msgid "Selected image will be used in posts when no featured image is set."
+msgstr ""
+
+#: anwp-post-grid-for-elementor/admin/views/settings.php:60
+msgid "Post Icons"
+msgstr ""
+
+#: anwp-post-grid-for-elementor/admin/views/settings.php:61
 msgid "You can display custom icon for the selected category, tag, or post format."
 msgstr ""
 
-#: anwp-post-grid-for-elementor/admin/views/settings.php:160
+#: anwp-post-grid-for-elementor/admin/views/settings.php:64
+msgid "Custom Post Type (CPT)"
+msgstr ""
+
+#: anwp-post-grid-for-elementor/admin/views/settings.php:65
+msgid "List of supported CPTs"
+msgstr ""
+
+#: anwp-post-grid-for-elementor/admin/views/settings.php:171
 msgid "AnWP Post Grid Settings"
 msgstr ""
 
@@ -153,7 +169,7 @@ msgstr ""
 msgid "Change Log"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/admin/views/welcome.php:29, anwp-post-grid-for-elementor/class-anwp-post-grid.php:243
+#: anwp-post-grid-for-elementor/admin/views/welcome.php:29, anwp-post-grid-for-elementor/class-anwp-post-grid.php:301
 msgid "Premium Version"
 msgstr ""
 
@@ -162,69 +178,69 @@ msgstr ""
 msgid "AnWP Post Grid cannot run on PHP versions older than %s. Please contact your hosting provider to update your site."
 msgstr ""
 
-#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:242
+#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:300
 msgid "Changelog"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:319
+#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:377
 msgid "Rate it"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:320
+#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:378
 msgid "Maybe later"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:321
+#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:379
 msgid "I've already rated"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:423
+#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:481
 msgid "AnWP Post Grid"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:598
+#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:656
 msgid "<strong>AnWP Post Grid for Elementor</strong> doesn't work without <strong>Elementor Page Builder</strong> plugin."
 msgstr ""
 
-#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:599
+#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:657
 msgid "Please activate Elementor to continue."
 msgstr ""
 
-#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:599
+#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:657
 msgid "Please install Elementor to continue."
 msgstr ""
 
-#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:605
+#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:663
 msgid "Install Elementor"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:603
+#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:661
 msgid "Activate Elementor"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:651
+#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:709
 msgctxt "admin page title"
 msgid "AnWP Post Grid"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:652, anwp-post-grid-for-elementor/class-anwp-post-grid.php:766, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-settings.php:207
+#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:710, anwp-post-grid-for-elementor/class-anwp-post-grid.php:824, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-settings.php:207
 msgctxt "admin menu title"
 msgid "AnWP Post Grid"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:668, anwp-post-grid-for-elementor/class-anwp-post-grid.php:669
+#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:726, anwp-post-grid-for-elementor/class-anwp-post-grid.php:727
 msgid "Welcome"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:676, anwp-post-grid-for-elementor/class-anwp-post-grid.php:677
+#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:734, anwp-post-grid-for-elementor/class-anwp-post-grid.php:735
 msgid "Support"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:685
+#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:743
 msgid "Go Premium"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:692, anwp-post-grid-for-elementor/class-anwp-post-grid.php:693
+#: anwp-post-grid-for-elementor/class-anwp-post-grid.php:750, anwp-post-grid-for-elementor/class-anwp-post-grid.php:751
 msgid "Settings"
 msgstr ""
 
@@ -256,47 +272,47 @@ msgstr ""
 msgid "Classic Blog"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:133, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:133, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:133, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:113, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:132, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:133, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:133
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:133, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:133, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:133, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:129, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:113, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:132, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:133, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:133
 msgid "Post Icon"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:141, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:141, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:141, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:121, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:140, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:141, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:141
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:141, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:141, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:141, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:137, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:121, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:140, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:141, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:141
 msgid "Show Post Icon"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:153, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:153, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:153, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:133, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:152, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:153, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:153
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:153, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:153, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:153, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:149, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:133, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:152, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:153, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:153
 msgid "Icon Size"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:156, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:156, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:156, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:136, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:155, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:156, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:156
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:156, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:156, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:156, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:152, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:136, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:155, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:156, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:156
 msgid "16 px"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:157, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:157, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:157, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:137, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:156, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:157, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:157
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:157, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:157, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:157, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:153, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:137, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:156, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:157, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:157
 msgid "24 px"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:158, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:158, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:158, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:138, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:157, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:158, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:158
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:158, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:158, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:158, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:154, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:138, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:157, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:158, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:158
 msgid "36 px"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:168, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:168, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:168, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:148, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:167, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:168, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:168
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:168, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:168, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:168, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:164, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:148, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:167, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:168, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:168
 msgid "Icon Position"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:171, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:171, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:171, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:151, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:170, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:171, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:171
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:171, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:171, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:171, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:167, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:151, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:170, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:171, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:171
 msgid "top right"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:172, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:172, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:419, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:587, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:172, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:383, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:551, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:152, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:171, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:172, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:172
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:172, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:172, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:419, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:587, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:172, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:383, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:551, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:168, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:152, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:171, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:172, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:172
 msgid "center"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:173, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:173, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:173, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:153, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:173, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:174, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:174
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:173, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:173, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:173, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:169, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:153, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:173, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:174, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:174
 msgid "bottom right"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:190, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:190, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:190, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:170, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:190, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:190, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:191
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:190, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:190, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:190, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:185, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:170, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:190, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:190, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:191
 msgid "Styles and Layout"
 msgstr ""
 
@@ -304,19 +320,19 @@ msgstr ""
 msgid "Post Image Width"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:211, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:246, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:217, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:219, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:247, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:269, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:220
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:211, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:246, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:217, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:214, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:219, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:247, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:269, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:220
 msgid "Show Category"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:223, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:258, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:229, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:231, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:259, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:281, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:232
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:223, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:258, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:229, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:226, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:231, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:259, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:281, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:232
 msgid "Category Limit"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:238, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:273, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:244, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:246, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:274, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:296, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:247
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:238, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:273, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:244, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:241, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:246, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:274, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:296, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:247
 msgid "Show Post Date"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:250, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:285, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:256, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:258, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:286, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:308, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:259
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:250, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:285, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:256, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:253, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:258, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:286, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:308, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:259
 msgid "Show Comments & Views"
 msgstr ""
 
@@ -324,19 +340,19 @@ msgstr ""
 msgid "Show Author"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:281, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:332, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:303, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:305, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:355, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:306
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:281, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:332, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:303, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:300, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:305, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:355, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:306
 msgid "Image Size"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:298, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:349, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:320, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:322, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:372, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:323
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:298, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:349, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:320, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:317, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:322, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:372, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:323
 msgid "Category Background Color"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:311, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:362, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:333, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:335, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:385, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:336
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:311, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:362, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:333, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:330, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:335, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:385, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:336
 msgid "Category Text Color"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:324, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:432, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:396, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:325, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:349
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:324, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:432, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:396, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:318, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:342
 msgid "Post Title"
 msgstr ""
 
@@ -392,7 +408,7 @@ msgstr ""
 msgid "Allow HTML"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:491, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:627, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:570, anwp-post-grid-for-elementor/templates/teaser/teaser--d.php:195
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-blog.php:491, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-grid.php:627, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:570, anwp-post-grid-for-elementor/templates/teaser/teaser--d.php:201
 msgid "Read More"
 msgstr ""
 
@@ -500,11 +516,11 @@ msgstr ""
 msgid "Classic Slider"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:275, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:277, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:327, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:278
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:275, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:272, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:277, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:327, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:278
 msgid "Post Card Height (px)"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:625, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:381
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:625, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:375, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:381
 msgid "Slider Options"
 msgstr ""
 
@@ -520,120 +536,140 @@ msgstr ""
 msgid "Set how many slides are scrolled per swipe."
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:678, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:434
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:678, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:383, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:447
 msgid "Autoplay"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:691, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:447
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:691, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:422, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:460
 msgid "Autoplay Speed (ms)"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:703, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:459
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:703, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:409, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:434
+msgid "Continuous loop mode"
+msgstr ""
+
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:716, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:434, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:472
 msgid "Distance between slides in px"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:719, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:475
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:732, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:450, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:488
 msgid "Direction"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:723, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:479
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:736, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:454, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:492
 msgid "Left"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:724, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:480
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:737, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:455, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:493
 msgid "Right"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:732, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:488
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:745, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:501
 msgid "Effect"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:736, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:492
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:749, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:505
 msgid "Slide"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:737, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:493
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:750, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:506
 msgid "Fade"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:739, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:495
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:752, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:508
 msgid "Fade effect works when \"Slides to Show\" is 1"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:746, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:502
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:759, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:463, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:515
 msgid "Navigation"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:750, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:506
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:763, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:467, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:519
 msgid "Arrows and Dots"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:751, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:507
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:764, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:468, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:520
 msgid "Arrows"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:752, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:508
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:765, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:469, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:521
 msgid "Dots"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:753, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:204, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:254, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:509
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:766, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:470, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:204, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:254, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:522
 msgid "None"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:761, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:517
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:774, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:478, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:530
 msgid "Arrows Position"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:765, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:797, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:521, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:553
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:778, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:810, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:482, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:514, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:534, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:566
 msgid "Inside"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:766, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:796, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:522, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:552
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:779, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:809, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:483, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:513, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:535, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:565
 msgid "Outside"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:778, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:534
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:791, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:495, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:547
 msgid "Arrows Color"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:792, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:548
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:805, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:509, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:561
 msgid "Dots Position"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:809, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:565
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:822, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:526, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:578
 msgid "Dots Color"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:823, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:579
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:836, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:540, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:592
 msgid "Dots Size"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:843, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:599
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:856, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:560, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:612
 msgid "Enable Mutation Observer"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:845, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:601
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-classic-slider.php:858, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:562, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:614
 msgid "Use it to fix slider rendering in hidden areas on initialization (e.g.: tabs)"
+msgstr ""
+
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:39
+msgid "Flex Slider"
+msgstr ""
+
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:193, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:178, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:198, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:198, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:199
+msgid "Post Card Style"
+msgstr ""
+
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:197, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:182, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:202, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:203, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2381
+msgid "Style A"
+msgstr ""
+
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:198, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:183, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:203, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:204, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2382
+msgid "Style B"
+msgstr ""
+
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:199, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:184, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:204, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:205, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2383
+msgid "Style C"
+msgstr ""
+
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:351, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:356, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:407, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:427, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:357
+msgid "Post Title Typography"
+msgstr ""
+
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:360, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:365, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:416, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:436, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:366
+msgid "Post Meta Typography"
+msgstr ""
+
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-flex-slider.php:396
+msgid "Free mode"
 msgstr ""
 
 #: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:39
 msgid "Hero Block"
-msgstr ""
-
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:178, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:198, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:198, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:199
-msgid "Post Card Style"
-msgstr ""
-
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:182, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:202, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:203, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2318
-msgid "Style A"
-msgstr ""
-
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:183, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:203, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:204, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2319
-msgid "Style B"
-msgstr ""
-
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:184, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:204, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:205, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2320
-msgid "Style C"
 msgstr ""
 
 #: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:199, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:248
@@ -644,14 +680,6 @@ msgstr ""
 msgid "Thin"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:356, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:407, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:427, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:357
-msgid "Post Title Typography"
-msgstr ""
-
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-hero-block.php:365, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:416, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-grid.php:436, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-simple-slider.php:366
-msgid "Post Meta Typography"
-msgstr ""
-
 #: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:40
 msgid "Light Grid"
 msgstr ""
@@ -660,11 +688,11 @@ msgstr ""
 msgid "top left"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:202, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2322
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:202, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2385
 msgid "Style E"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:203, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2323
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-element-light-grid.php:203, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2386
 msgid "Style F"
 msgstr ""
 
@@ -692,252 +720,268 @@ msgstr ""
 msgid "Simple Slider"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:284, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:356, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:429, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:504
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:277, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:349, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:422, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:497
 msgid "nothing found"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:256, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:278
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:249, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:271
 msgid "Post Tag"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:257, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:279, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:326, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:350, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:402, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:424, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:477, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:499
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:250, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:272, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:319, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:343, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:395, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:417, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:470, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:492
 msgid "ID"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:327, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:351
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:320, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:344
 msgid "Published"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:401, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:423
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:394, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:416
 msgid "Category"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:476, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:498
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:469, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:491
 msgid "Author"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:673
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:666
 msgid "Premium Features"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:705
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:698
 msgid "Premium Demo"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:733
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:726
 msgid "News Ticker"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:739
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:732
 msgid "Hero Slider"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:745
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:738
 msgid "Mosaic Slider"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:751
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:744
 msgid "Card Slider"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:837, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:872, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2123
-msgid "Latest"
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:870
+msgid "Latest (published)"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:838, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:873, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2124
-msgid "Oldest"
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:871
+msgid "Oldest (published)"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:839, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:874, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2125
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:872
+msgid "Latest (modified)"
+msgstr ""
+
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:873
+msgid "Oldest (modified)"
+msgstr ""
+
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:874, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:914, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2188
 msgid "Most commented"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:840
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:875
 msgid "Custom"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:844, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:878
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:879, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:918
 msgid "Most viewed"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:858
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:894
 msgid "Posts"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:859
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:895
 msgid "Related"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:960
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:912, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2186
+msgid "Latest"
+msgstr ""
+
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:913, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2187
+msgid "Oldest"
+msgstr ""
+
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:1000
 msgid "All Formats"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:961
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:1001
 msgid "Standard"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:1500
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:1562
 msgctxt "post date"
 msgid "Posted on"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:1939
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2002
 msgid "Query"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:1947
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2010
 msgid "Source"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:1958
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2021
 msgid "Posts to Show"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:1980
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2043
 msgid "Selected Posts"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:1982, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2153
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2045, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2216
 msgid "Comma-separated Post IDs. Click on magnifying glass to open search panel."
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:1995
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2058
 msgid "Filter by Category"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:1997, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2169
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2060, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2232
 msgid "Comma-separated Category IDs. Click on magnifying glass to open search panel."
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2010
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2073
 msgid "Filter by Tag"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2012
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2075
 msgid "Comma-separated Tag IDs. Click on magnifying glass to open search panel."
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2025
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2088
 msgid "Filter by Post Format"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2041
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2104
 msgid "Filter by Author"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2044, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2184
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2107, anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2247
 msgid "Comma-separated User IDs. Click on magnifying glass to open search panel."
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2073
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2136
 msgid "Posts Limit"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2075
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2138
 msgid "Set post limit. Use \"-1\" to show all."
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2108
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2171
 msgid "Set fallback of what to show if relevant results are less than 5."
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2119
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2182
 msgid "Fallback Options"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2122
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2185
 msgid "hide widget"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2151
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2214
 msgid "Exclude Posts"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2166
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2229
 msgid "Exclude by Category"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2181
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2244
 msgid "Exclude by Author"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2207
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2270
 msgid "Posts Offset"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2208
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2271
 msgid "number of post to pass over"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2235
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2298
 msgid "Published in Last days"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2250
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2313
 msgid "Show Related posts"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2253
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2316
 msgid "with the same category"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2254
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2317
 msgid "with the same tag"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2255
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2318
 msgid "from the same author"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2268
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2331
 msgid "Related posts order"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2298
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2361
 msgid "Widget Header"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2306
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2369
 msgid "Title"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2308
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2371
 msgid "Enter your title"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2315
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2378
 msgid "Header Style"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2321
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2384
 msgid "Style D"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2324
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2387
 msgid "Style G"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2334
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2397
 msgid "Header Text HTML Tag"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2354
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2417
 msgid "Header Text Color"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2365
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2428
 msgid "Header Icon"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2382
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2445
 msgid "Secondary Color"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2396
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2459
 msgid "Bottom Margin"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2419
+#: anwp-post-grid-for-elementor/includes/class-anwp-post-grid-elements.php:2482
 msgid "Secondary Line Size"
 msgstr ""
 
@@ -953,11 +997,11 @@ msgstr ""
 msgid "load more"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/templates/classic-slider.php:96, anwp-post-grid-for-elementor/templates/simple-slider.php:92
+#: anwp-post-grid-for-elementor/templates/classic-slider.php:98, anwp-post-grid-for-elementor/templates/flex-slider.php:83, anwp-post-grid-for-elementor/templates/simple-slider.php:94
 msgid "Previous"
 msgstr ""
 
-#: anwp-post-grid-for-elementor/templates/classic-slider.php:100, anwp-post-grid-for-elementor/templates/simple-slider.php:96
+#: anwp-post-grid-for-elementor/templates/classic-slider.php:102, anwp-post-grid-for-elementor/templates/flex-slider.php:87, anwp-post-grid-for-elementor/templates/simple-slider.php:98
 msgid "Next"
 msgstr ""
 

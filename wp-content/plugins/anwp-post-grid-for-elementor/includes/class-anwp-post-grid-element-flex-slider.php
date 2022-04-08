@@ -5,17 +5,16 @@ use Elementor\Controls_Stack;
 use Elementor\Group_Control_Image_Size;
 use Elementor\Group_Control_Typography;
 use Elementor\Widget_Base;
-use Elementor\Core\Schemes;
 use Elementor\Icons_Manager;
 
 /**
- * AnWP Post Grid Elements :: Classic Slider
+ * AnWP Post Grid Elements :: Flex Slider
  *
- * @since   0.6.0
+ * @since   0.9.0
  * @package AnWP_Post_Grid
  */
 
-class AnWP_Post_Grid_Element_Classic_Slider extends Widget_Base {
+class AnWP_Post_Grid_Element_Flex_Slider extends Widget_Base {
 
 	/**
 	 * Get widget name.
@@ -26,7 +25,7 @@ class AnWP_Post_Grid_Element_Classic_Slider extends Widget_Base {
 	 *
 	 */
 	public function get_name() {
-		return 'anwp-pg-classic-slider';
+		return 'anwp-pg-flex-slider';
 	}
 
 	/**
@@ -35,19 +34,16 @@ class AnWP_Post_Grid_Element_Classic_Slider extends Widget_Base {
 	 * @return string Widget title.
 	 * @since  0.1.0
 	 * @access public
-	 *
 	 */
 	public function get_title() {
-		return __( 'Classic Slider', 'anwp-post-grid' );
+		return __( 'Flex Slider', 'anwp-post-grid' );
 	}
 
 	/**
 	 * Get widget icon.
 	 *
 	 * @return string Widget icon.
-	 * @since  0.1.0
 	 * @access public
-	 *
 	 */
 	public function get_icon() {
 		return 'anwp-pg-element anwp-pg-classic-slider__admin-icon';
@@ -91,16 +87,16 @@ class AnWP_Post_Grid_Element_Classic_Slider extends Widget_Base {
 		 *
 		 * @param AnWP_Post_Grid_Element_Classic_Slider $this The element.
 		 *
-		 * @since 0.8.3
+		 * @since 0.9.0
 		 */
-		do_action( 'anwp-pg-el/element-classic-slider/before_controls_start', $this );
+		do_action( 'anwp-pg-el/element-flex-slider/before_controls_start', $this );
 
 		/**
 		 * Load Section - Query
 		 *
 		 * @param AnWP_Post_Grid_Element_Classic_Blog $this The element.
 		 *
-		 * @since 0.8.3
+		 * @since 0.9.0
 		 */
 		do_action( 'anwp-pg-el/general/section_query', $this );
 
@@ -109,7 +105,7 @@ class AnWP_Post_Grid_Element_Classic_Slider extends Widget_Base {
 		 *
 		 * @param AnWP_Post_Grid_Element_Classic_Blog $this The element.
 		 *
-		 * @since 0.7.0
+		 * @since 0.9.0
 		 */
 		do_action( 'anwp-pg-el/general/section_header', $this );
 
@@ -118,9 +114,9 @@ class AnWP_Post_Grid_Element_Classic_Slider extends Widget_Base {
 		 *
 		 * @param AnWP_Post_Grid_Element_Classic_Slider $this The element.
 		 *
-		 * @since 0.7.0
+		 * @since 0.9.0
 		 */
-		do_action( 'anwp-pg-el/element-classic-slider/after_control_section_header', $this );
+		do_action( 'anwp-pg-el/element-flex-slider/after_control_section_header', $this );
 
 		/*
 		|--------------------------------------------------------------------
@@ -178,7 +174,6 @@ class AnWP_Post_Grid_Element_Classic_Slider extends Widget_Base {
 		);
 
 		$this->end_controls_section();
-
 		/*
 		|--------------------------------------------------------------------
 		| Styles and Layout Section
@@ -193,14 +188,16 @@ class AnWP_Post_Grid_Element_Classic_Slider extends Widget_Base {
 		);
 
 		$this->add_control(
-			'show_excerpt',
+			'layout',
 			[
-				'label'        => __( 'Show Excerpt', 'anwp-post-grid' ),
-				'type'         => Controls_Manager::SWITCHER,
-				'label_on'     => __( 'Yes', 'anwp-post-grid' ),
-				'label_off'    => __( 'No', 'anwp-post-grid' ),
-				'return_value' => 'yes',
-				'default'      => 'yes',
+				'label'   => __( 'Post Card Style', 'anwp-post-grid' ),
+				'type'    => Controls_Manager::SELECT,
+				'default' => 'a',
+				'options' => [
+					'a' => __( 'Style A', 'anwp-post-grid' ),
+					'b' => __( 'Style B', 'anwp-post-grid' ),
+					'c' => __( 'Style C', 'anwp-post-grid' ),
+				],
 			]
 		);
 
@@ -322,7 +319,7 @@ class AnWP_Post_Grid_Element_Classic_Slider extends Widget_Base {
 				'default'   => '',
 				'alpha'     => false,
 				'selectors' => [
-					'{{WRAPPER}} .anwp-pg-classic-slider .anwp-pg-category__wrapper-filled' => 'background-color: {{VALUE}} !important',
+					'{{WRAPPER}} .anwp-pg-simple-slider .anwp-pg-category__wrapper-filled' => 'background-color: {{VALUE}} !important',
 				],
 			]
 		);
@@ -335,67 +332,15 @@ class AnWP_Post_Grid_Element_Classic_Slider extends Widget_Base {
 				'default'   => '',
 				'alpha'     => false,
 				'selectors' => [
-					'{{WRAPPER}} .anwp-pg-classic-slider .anwp-pg-category__wrapper-filled' => 'color: {{VALUE}} !important',
+					'{{WRAPPER}} .anwp-pg-simple-slider .anwp-pg-category__wrapper-filled' => 'color: {{VALUE}} !important',
 				],
 			]
 		);
 
 		$this->add_control(
-			'card_bg_color',
-			[
-				'label'     => __( 'Post Card Background Color', 'anwp-post-grid' ),
-				'type'      => Controls_Manager::COLOR,
-				'default'   => '',
-				'alpha'     => true,
-				'selectors' => [
-					'{{WRAPPER}} .anwp-pg-classic-slider .anwp-pg-post-teaser__content' => 'background-color: {{VALUE}} !important',
-				],
-			]
-		);
-
-		$this->add_control(
-			'card_bg_color_hover',
-			[
-				'label'     => __( 'Post Card Background Color on Hover', 'anwp-post-grid' ),
-				'type'      => Controls_Manager::COLOR,
-				'default'   => '',
-				'alpha'     => true,
-				'selectors' => [
-					'{{WRAPPER}} .anwp-pg-classic-slider .anwp-pg-post-teaser--layout-d:hover .anwp-pg-post-teaser__content' => 'background-color: {{VALUE}} !important',
-				],
-			]
-		);
-
-		$this->add_control(
-			'hr_style_21',
+			'hr_style_6',
 			[
 				'type' => Controls_Manager::DIVIDER,
-			]
-		);
-
-		$this->add_control(
-			'post_content_text_align',
-			[
-				'label'     => __( 'Title and Meta Text Align', 'anwp-post-grid' ),
-				'type'      => Controls_Manager::SELECT,
-				'options'   => [
-					''       => __( 'default', 'anwp-post-grid' ),
-					'center' => __( 'center', 'anwp-post-grid' ),
-				],
-				'default'   => '',
-				'selectors' => [
-					'{{WRAPPER}} .anwp-pg-post-teaser__title' => 'text-align: {{VALUE}};',
-					'{{WRAPPER}} .anwp-pg-post-teaser__bottom-meta' => '-ms-flex-pack: {{VALUE}} !important; justify-content: {{VALUE}} !important;: ;',
-				],
-			]
-		);
-
-		$this->add_control(
-			'post_title_options_heading',
-			[
-				'label'     => __( 'Post Title', 'anwp-post-grid' ),
-				'type'      => Controls_Manager::HEADING,
-				'separator' => 'before',
 			]
 		);
 
@@ -403,29 +348,8 @@ class AnWP_Post_Grid_Element_Classic_Slider extends Widget_Base {
 			Group_Control_Typography::get_type(),
 			[
 				'name'     => 'typography_teaser_title',
-				'label'    => __( 'Typography', 'anwp-post-grid' ),
-				'selector' => '{{WRAPPER}} .anwp-pg-post-teaser__title a',
-			]
-		);
-
-		$this->add_control(
-			'post_title_color',
-			[
-				'label'     => __( 'Color', 'anwp-post-grid' ),
-				'type'      => Controls_Manager::COLOR,
-				'default'   => '',
-				'selectors' => [
-					'{{WRAPPER}} .anwp-pg-post-teaser__title a' => 'color: {{VALUE}};',
-				],
-			]
-		);
-
-		$this->add_control(
-			'post_meta_options_heading',
-			[
-				'label'     => __( 'Post Meta', 'anwp-post-grid' ),
-				'type'      => Controls_Manager::HEADING,
-				'separator' => 'before',
+				'label'    => __( 'Post Title Typography', 'anwp-post-grid' ),
+				'selector' => '{{WRAPPER}} .anwp-pg-post-teaser__title',
 			]
 		);
 
@@ -433,182 +357,8 @@ class AnWP_Post_Grid_Element_Classic_Slider extends Widget_Base {
 			Group_Control_Typography::get_type(),
 			[
 				'name'     => 'typography_teaser_meta',
-				'label'    => __( 'Typography', 'anwp-post-grid' ),
+				'label'    => __( 'Post Meta Typography', 'anwp-post-grid' ),
 				'selector' => '{{WRAPPER}} .anwp-pg-post-teaser__meta-comments, {{WRAPPER}} .anwp-pg-post-teaser__category-wrapper, {{WRAPPER}} .anwp-pg-post-teaser__meta-views, {{WRAPPER}} .anwp-pg-post-teaser__bottom-meta',
-			]
-		);
-
-		$this->add_control(
-			'post_meta_vertical_margin',
-			[
-				'label'     => __( 'Vertical Margin', 'anwp-post-grid' ),
-				'type'      => Controls_Manager::SELECT,
-				'options'   => [
-					'-5px' => '-5px',
-					'0'    => '0',
-					'5px'  => '5px',
-					'10px' => '10px',
-					'15px' => '15px',
-					'20px' => '20px',
-				],
-				'default'   => '10px',
-				'selectors' => [
-					'{{WRAPPER}} .anwp-pg-post-teaser__bottom-meta' => 'margin-top: {{VALUE}}; margin-bottom: {{VALUE}};',
-				],
-			]
-		);
-
-		$this->add_control(
-			'post_meta_background_color',
-			[
-				'label'     => __( 'Background Color', 'anwp-post-grid' ),
-				'type'      => Controls_Manager::COLOR,
-				'default'   => '',
-				'selectors' => [
-					'{{WRAPPER}} .anwp-pg-post-teaser__bottom-meta' => 'background-color: {{VALUE}}; padding: 3px 5px;',
-				],
-			]
-		);
-
-		$this->add_control(
-			'post_meta_text_color',
-			[
-				'label'     => __( 'Text Color', 'anwp-post-grid' ),
-				'type'      => Controls_Manager::COLOR,
-				'default'   => '',
-				'selectors' => [
-					'{{WRAPPER}} .anwp-pg-post-teaser__bottom-meta' => 'color: {{VALUE}} !important',
-					'{{WRAPPER}} .anwp-pg-post-teaser__bottom-meta .anwp-pg-icon' => 'fill: {{VALUE}} !important',
-				],
-			]
-		);
-
-		$this->add_control(
-			'post_excerpt_options_heading',
-			[
-				'label'     => __( 'Post Excerpt', 'anwp-post-grid' ),
-				'type'      => Controls_Manager::HEADING,
-				'separator' => 'before',
-			]
-		);
-
-		$this->add_control(
-			'excerpt_num_words',
-			[
-				'label'       => __( 'Number of Words', 'anwp-post-grid' ),
-				'label_block' => false,
-				'type'        => Controls_Manager::NUMBER,
-				'min'         => 0,
-				'default'     => 30,
-			]
-		);
-
-		$this->add_control(
-			'excerpt_source',
-			[
-				'label'       => __( 'Excerpt Source', 'anwp-post-grid' ),
-				'type'        => Controls_Manager::SELECT,
-				'description' => __( 'Use "Post Content" when you want to increase number of words or allow HTML', 'anwp-post-grid' ),
-				'options'     => [
-					''             => __( 'Default (excerpt)', 'anwp-post-grid' ),
-					'post_content' => __( 'Post Content', 'anwp-post-grid' ),
-				],
-				'default'     => '',
-			]
-		);
-
-		$this->add_control(
-			'excerpt_html',
-			[
-				'label'        => __( 'Allow HTML', 'anwp-post-grid' ),
-				'type'         => Controls_Manager::SWITCHER,
-				'label_on'     => __( 'Yes', 'anwp-post-grid' ),
-				'label_off'    => __( 'No', 'anwp-post-grid' ),
-				'return_value' => 'yes',
-				'default'      => 'no',
-			]
-		);
-
-		$this->add_control(
-			'post_excerpt_text_color',
-			[
-				'label'     => __( 'Text Color', 'anwp-post-grid' ),
-				'type'      => Controls_Manager::COLOR,
-				'default'   => '',
-				'selectors' => [
-					'{{WRAPPER}} .anwp-pg-post-teaser__excerpt' => 'color: {{VALUE}} !important',
-				],
-			]
-		);
-
-		$this->add_control(
-			'post_excerpt_text_align',
-			[
-				'label'     => __( 'Text Align', 'anwp-post-grid' ),
-				'type'      => Controls_Manager::SELECT,
-				'options'   => [
-					''       => __( 'default', 'anwp-post-grid' ),
-					'center' => __( 'center', 'anwp-post-grid' ),
-				],
-				'default'   => '',
-				'selectors' => [
-					'{{WRAPPER}} .anwp-pg-post-teaser__excerpt' => 'text-align: {{VALUE}};',
-				],
-			]
-		);
-
-		$this->end_controls_section();
-
-		/*
-		|--------------------------------------------------------------------
-		| Read More button
-		|--------------------------------------------------------------------
-		*/
-		$this->start_controls_section(
-			'section_anwp_grid_read_more',
-			[
-				'label' => __( 'Read More', 'anwp-post-grid' ),
-				'tab'   => Controls_Manager::TAB_CONTENT,
-			]
-		);
-
-		$this->add_control(
-			'show_read_more',
-			[
-				'label'        => __( 'Show "Read More" button', 'anwp-post-grid' ),
-				'type'         => Controls_Manager::SWITCHER,
-				'label_on'     => __( 'Yes', 'anwp-post-grid' ),
-				'label_off'    => __( 'No', 'anwp-post-grid' ),
-				'return_value' => 'yes',
-				'default'      => 'no',
-			]
-		);
-
-		$this->add_control(
-			'read_more_label',
-			[
-				'label'       => __( '"Read more" alternative text', 'anwp-post-grid' ),
-				'label_block' => true,
-				'type'        => Controls_Manager::TEXT,
-				'default'     => '',
-			]
-		);
-
-		$this->add_control(
-			'read_more_class',
-			[
-				'label'       => __( '"Read more" custom classes', 'anwp-post-grid' ),
-				'label_block' => true,
-				'type'        => Controls_Manager::TEXT,
-				'default'     => '',
-			]
-		);
-
-		$this->add_control(
-			'read_more_class_note',
-			[
-				'type' => Controls_Manager::RAW_HTML,
-				'raw'  => 'You can use Bootstrap Button classes. <br>E.g.: "btn btn-danger"<br> More info <a target="_blank" href="https://getbootstrap.com/docs/4.5/components/buttons/">here</a><br>Default: "btn btn-sm btn-outline-info w-100 text-decoration-none"',
 			]
 		);
 
@@ -627,55 +377,36 @@ class AnWP_Post_Grid_Element_Classic_Slider extends Widget_Base {
 			]
 		);
 
-		$this->add_responsive_control(
-			'slides_to_show',
+		$this->add_control(
+			'autoplay',
 			[
-				'label'       => __( 'Slides to Show', 'anwp-post-grid' ),
-				'type'        => Controls_Manager::NUMBER,
-				'min'         => 1,
-				'max'         => 8,
-				'default'     => 3,
-				'required'    => true,
-				'device_args' => [
-					Controls_Stack::RESPONSIVE_TABLET => [
-						'required' => false,
-						'default'  => 2,
-					],
-					Controls_Stack::RESPONSIVE_MOBILE => [
-						'required' => false,
-						'default'  => 1,
-					],
-				],
-			]
-		);
-
-		$this->add_responsive_control(
-			'slides_to_scroll',
-			[
-				'label'       => __( 'Slides to Scroll', 'anwp-post-grid' ),
-				'description' => __( 'Set how many slides are scrolled per swipe.', 'anwp-post-grid' ),
-				'type'        => Controls_Manager::NUMBER,
-				'min'         => 1,
-				'max'         => 8,
-				'default'     => 1,
-				'required'    => true,
-				'device_args' => [
-					Controls_Stack::RESPONSIVE_TABLET => [
-						'required' => false,
-						'default'  => 1,
-					],
-					Controls_Stack::RESPONSIVE_MOBILE => [
-						'required' => false,
-						'default'  => 1,
-					],
+				'label'   => __( 'Autoplay', 'anwp-post-grid' ),
+				'type'    => Controls_Manager::SELECT,
+				'default' => 'yes',
+				'options' => [
+					'yes' => __( 'Yes', 'anwp-post-grid' ),
+					'no'  => __( 'No', 'anwp-post-grid' ),
 				],
 			]
 		);
 
 		$this->add_control(
-			'autoplay',
+			'free_mode',
 			[
-				'label'   => __( 'Autoplay', 'anwp-post-grid' ),
+				'label'   => __( 'Free mode', 'anwp-post-grid' ),
+				'type'    => Controls_Manager::SELECT,
+				'default' => 'yes',
+				'options' => [
+					'yes' => __( 'Yes', 'anwp-post-grid' ),
+					'no'  => __( 'No', 'anwp-post-grid' ),
+				],
+			]
+		);
+
+		$this->add_control(
+			'loop',
+			[
+				'label'   => __( 'Continuous loop mode', 'anwp-post-grid' ),
 				'type'    => Controls_Manager::SELECT,
 				'default' => 'yes',
 				'options' => [
@@ -693,19 +424,6 @@ class AnWP_Post_Grid_Element_Classic_Slider extends Widget_Base {
 				'default'   => 5000,
 				'condition' => [
 					'autoplay' => 'yes',
-				],
-			]
-		);
-
-		$this->add_control(
-			'loop',
-			[
-				'label'   => __( 'Continuous loop mode', 'anwp-post-grid' ),
-				'type'    => Controls_Manager::SELECT,
-				'default' => 'no',
-				'options' => [
-					'yes' => __( 'Yes', 'anwp-post-grid' ),
-					'no'  => __( 'No', 'anwp-post-grid' ),
 				],
 			]
 		);
@@ -736,20 +454,6 @@ class AnWP_Post_Grid_Element_Classic_Slider extends Widget_Base {
 					'ltr' => __( 'Left', 'anwp-post-grid' ),
 					'rtl' => __( 'Right', 'anwp-post-grid' ),
 				],
-			]
-		);
-
-		$this->add_control(
-			'effect',
-			[
-				'label'       => __( 'Effect', 'anwp-post-grid' ),
-				'type'        => Controls_Manager::SELECT,
-				'default'     => 'slide',
-				'options'     => [
-					'slide' => __( 'Slide', 'anwp-post-grid' ),
-					'fade'  => __( 'Fade', 'anwp-post-grid' ),
-				],
-				'description' => __( 'Fade effect works when "Slides to Show" is 1', 'anwp-post-grid' ),
 			]
 		);
 
@@ -870,16 +574,16 @@ class AnWP_Post_Grid_Element_Classic_Slider extends Widget_Base {
 		 *
 		 * @param AnWP_Post_Grid_Element_Classic_Slider $this The element.
 		 *
-		 * @since 0.7.0
+		 * @since 0.9.0
 		 */
-		do_action( 'anwp-pg-el/element-classic-slider/before_controls_end', $this );
+		do_action( 'anwp-pg-el/element-flex-slider/before_controls_end', $this );
 
 		/**
 		 * Before end of controls.
 		 *
 		 * @param Widget_Base $this The element.
 		 *
-		 * @since 0.7.0
+		 * @since 0.9.0
 		 */
 		do_action( 'anwp-pg-el/element/before_controls_end', $this );
 	}
@@ -887,7 +591,7 @@ class AnWP_Post_Grid_Element_Classic_Slider extends Widget_Base {
 	/**
 	 * Render widget output on the frontend.
 	 *
-	 * @since  0.6.0
+	 * @since  0.9.0
 	 * @access protected
 	 */
 	protected function render() {
@@ -901,7 +605,7 @@ class AnWP_Post_Grid_Element_Classic_Slider extends Widget_Base {
 			$this->get_settings_for_display(),
 			[
 				'posts_to_show' => 'latest',
-				'limit'         => 3,
+				'limit'         => 6,
 				'header_icon'   => '',
 			]
 		);
@@ -929,7 +633,7 @@ class AnWP_Post_Grid_Element_Classic_Slider extends Widget_Base {
 		| Render
 		|--------------------------------------------------------------------
 		*/
-		anwp_post_grid()->load_partial( $data, 'classic-slider' );
+		anwp_post_grid()->load_partial( $data, 'flex-slider' );
 	}
 }
 

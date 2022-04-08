@@ -48,7 +48,7 @@ final class AnWP_Post_Grid {
 	 * @var    string
 	 * @since  0.1.0
 	 */
-	const VERSION = '0.8.6';
+	const VERSION = '0.9.0';
 
 	/**
 	 * URL of plugin directory.
@@ -133,6 +133,51 @@ final class AnWP_Post_Grid {
 	}
 
 	/**
+	 * Admin notice
+	 *
+	 * Warning when the site doesn't have a minimum required Elementor version.
+	 *
+	 * @since 0.8.7
+	 * @access public
+	 */
+	public function admin_notice_minimum_elementor_version() {
+
+		if ( isset( $_GET['activate'] ) ) { // phpcs:ignore WordPress.Security.NonceVerification
+			unset( $_GET['activate'] ); // phpcs:ignore WordPress.Security.NonceVerification
+		}
+
+		$message = sprintf(
+			'"%1$s" requires "%2$s" version %3$s or greater.',
+			'<strong>AnWP Post Grid</strong>',
+			'<strong>Elementor</strong>',
+			'3.1.0'
+		);
+
+		// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+		printf( '<div class="notice notice-warning is-dismissible"><p>%1$s</p></div>', $message );
+	}
+
+	/**
+	 * Register AnWP ID Selector
+	 *
+	 * Include control file and register control class.
+	 *
+	 * @since 0.8.7
+	 * @param Elementor\Controls_Manager $controls_manager Elementor controls manager.
+	 * @return void
+	 */
+	public function register_an_wp_post_grid_control_id_selector( $controls_manager ) {
+
+		require_once( __DIR__ . '/includes/class-anwp-post-grid-control-id-selector.php' );
+
+		if ( ( defined( 'ELEMENTOR_VERSION' ) && version_compare( ELEMENTOR_VERSION, '3.5.0', '>=' ) ) ) {
+			$controls_manager->register( new AnWP_Post_Grid_Control_Id_Selector() );
+		} else {
+			$controls_manager->register_control( 'anwp-id-selector', new AnWP_Post_Grid_Control_Id_Selector() );
+		}
+	}
+
+	/**
 	 * Add hooks and filters.
 	 * Priority needs to be
 	 * < 10 for CPT_Core,
@@ -142,6 +187,19 @@ final class AnWP_Post_Grid {
 	 * @since  0.1.0
 	 */
 	public function hooks() {
+
+		// Check for required Elementor version
+		if ( defined( 'ELEMENTOR_VERSION' ) && ! version_compare( ELEMENTOR_VERSION, '3.1.0', '>=' ) ) {
+			add_action( 'admin_notices', [ $this, 'admin_notice_minimum_elementor_version' ] );
+
+			return false;
+		}
+
+		if ( ( defined( 'ELEMENTOR_VERSION' ) && version_compare( ELEMENTOR_VERSION, '3.5.0', '>=' ) ) ) {
+			add_action( 'elementor/controls/register', [ $this, 'register_an_wp_post_grid_control_id_selector' ] );
+		} else {
+			add_action( 'elementor/controls/controls_registered', [ $this, 'register_an_wp_post_grid_control_id_selector' ] );
+		}
 
 		/**
 		 * Bump init actions

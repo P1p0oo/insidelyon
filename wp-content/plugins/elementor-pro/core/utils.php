@@ -107,7 +107,7 @@ class Utils {
 			}
 		} elseif ( is_search() ) {
 			/* translators: %s: Search term. */
-			$title = sprintf( esc_html__( 'Search Results for: %s', 'elementor-pro' ), get_search_query() );
+			$title = sprintf( esc_html__( 'Résultat(s) pour : %s', 'elementor-pro' ), get_search_query() );
 
 			if ( get_query_var( 'paged' ) ) {
 				/* translators: %s is the page number. */

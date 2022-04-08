@@ -10,7 +10,7 @@
  * @package          AnWP_Post_Grid/Templates
  * @since            0.6.0
  *
- * @version          0.8.5
+ * @version          0.9.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -42,6 +42,7 @@ $data = (object) wp_parse_args(
 		'read_more_label'         => '',
 		'read_more_class'         => '',
 		'enable_observer'         => '',
+		'loop'                    => '',
 	]
 );
 
@@ -73,6 +74,7 @@ $spacing_between = ( ! empty( $data->spacing_between['size'] ) && $data->spacing
 		data-pg-effect="<?php echo esc_attr( $data->effect ); ?>"
 		data-pg-show-read-more="<?php echo esc_attr( $data->show_read_more ); ?>"
 		data-pg-enable-observer="<?php echo esc_attr( $data->enable_observer ); ?>"
+		data-pg-loop="<?php echo esc_attr( $data->loop ); ?>"
 		dir="<?php echo esc_attr( $data->direction ); ?>"
 	>
 		<!-- Additional required wrapper -->

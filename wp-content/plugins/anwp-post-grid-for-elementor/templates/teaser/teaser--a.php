@@ -10,7 +10,7 @@
  * @package          AnWP_Post_Grid/Templates
  * @since            0.1.0
  *
- * @version          0.8.5
+ * @version          0.9.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -33,6 +33,7 @@ $data = (object) wp_parse_args(
 		'category_limit'           => 1,
 		'show_post_icon'           => 'yes',
 		'post_card_height_classes' => '',
+		'image_sized'              => false,
 	]
 );
 
@@ -47,7 +48,7 @@ if ( empty( $wp_post->ID ) ) {
 $post_format = get_post_format( $wp_post );
 
 // Wrapper Classes
-$wrapper_classes = $data->wrapper_classes ? $data->wrapper_classes : anwp_post_grid()->elements->get_teaser_grid_classes( $data, 3, 2, 1 );
+$wrapper_classes = $data->wrapper_classes ? : anwp_post_grid()->elements->get_teaser_grid_classes( $data, 3, 2, 1 );
 
 if ( 'yes' === $data->show_comments ) {
 	if ( comments_open( $wp_post->ID ) || get_comments_number( $wp_post->ID ) ) {
@@ -77,9 +78,15 @@ $open_link_in_new_tab = AnWP_Post_Grid::string_to_bool( AnWP_Post_Grid_Settings:
 			</div>
 		<?php endif; ?>
 
-		<div class="anwp-pg-post-teaser__thumbnail-img <?php echo esc_attr( $card_height_classes ); ?>"
-			style="background-image: url(<?php echo esc_url( anwp_post_grid()->elements->get_post_image_uri( $data->grid_thumbnail_size, true, $wp_post->ID ) ); ?>)">
-		</div>
+		<?php if ( ! $data->image_sized && 'div_bg' === AnWP_Post_Grid_Settings::get_value( 'image_rendering' ) ) : ?>
+			<div class="anwp-pg-post-teaser__thumbnail-img <?php echo esc_attr( $card_height_classes ); ?>"
+				style="background-image: url(<?php echo esc_url( anwp_post_grid()->elements->get_post_image_uri( $data->grid_thumbnail_size, true, $wp_post->ID ) ); ?>)">
+			</div>
+		<?php else : ?>
+			<img class="anwp-pg-post-teaser__thumbnail-img d-block <?php echo esc_attr( $card_height_classes ); ?> anwp-object-cover m-0 w-100"
+				alt="<?php echo esc_attr( get_the_title( $wp_post->ID ) ); ?>"
+				src="<?php echo esc_url( anwp_post_grid()->elements->get_post_image_uri( $data->grid_thumbnail_size, true, $wp_post->ID ) ); ?>" />
+		<?php endif; ?>
 
 		<div class="anwp-pg-post-teaser__muted_bg"></div>
 		<div class="anwp-pg-post-teaser__thumbnail-bg anwp-position-cover"></div>

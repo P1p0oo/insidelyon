@@ -4,8 +4,8 @@ Donate link:       https://anwp.pro
 Tags:              post grid, post slider, post carousel, posts grid, elementor, elementor addons, elementor widget, elementor page builder, grid, load more
 Requires at least: 4.7
 Requires PHP:      5.6
-Tested up to:      5.8
-Stable tag:        0.8.6
+Tested up to:      5.9.2
+Stable tag:        0.9.0
 License:           GPLv2 or later
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -86,6 +86,18 @@ Click on "Edit Sections" icon. Then set "Columns Gap" option to "No Gap".
 
 
 == Changelog ==
+
+= 0.9.0 - 2022-04-03 =
+* removed: IE support (CSS styles)
+* added: option "Image Rendering". Since v0.9.0 <img> tag is used (better support for image lazy load plugins)
+* added: new widget "Flex Slider" (with initial image aspect ratio)
+* added: new option "Continuous loop mode" in "Simple Slider" and "Classic Slider"
+* added: possibility to sort by latest and oldest modified date
+* added: Custom Post Type support
+
+= 0.8.7 - 2022-03-15 =
+* fixed: category filter disappears with installed Elementor Pro 3.6
+* fixed: Swiper slider conflict with some plugins
 
 = 0.8.6 - 2021-12-17 =
 * fixed: Slider doesn't work with active "Improve Asset Loading" in Elementor v3.5

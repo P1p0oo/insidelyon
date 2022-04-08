@@ -1,6 +1,6 @@
 <?php
 /**
- * The Template for displaying Simple Slider.
+ * The Template for displaying Flex Slider.
  *
  * This template can be overridden by copying it to yourtheme/anwp-post-grid/simple-slider.php
  *
@@ -8,7 +8,7 @@
  *
  * @author           Andrei Strekozov <anwp.pro>
  * @package          AnWP_Post_Grid/Templates
- * @since            0.6.0
+ * @since            0.9.0
  *
  * @version          0.9.0
  */
@@ -20,26 +20,21 @@ if ( ! defined( 'ABSPATH' ) ) {
 $data = (object) wp_parse_args(
 	$data,
 	[
-		'slider_posts'            => [],
-		'layout'                  => 'a',
-		'wrapper_classes'         => 'swiper-slide',
-		'slides_to_show'          => 3,
-		'slides_to_show_mobile'   => 1,
-		'slides_to_show_tablet'   => 2,
-		'slides_to_scroll'        => 1,
-		'slides_to_scroll_mobile' => 1,
-		'slides_to_scroll_tablet' => 1,
-		'navigation'              => '',
-		'direction'               => 'ltr',
-		'spacing_between'         => [ 'size' => 20 ],
-		'autoplay'                => 'yes',
-		'autoplay_delay'          => 5000,
-		'effect'                  => 'slide',
-		'grid_widget_title'       => '',
-		'header_size'             => 'h3',
-		'header_icon'             => '',
-		'enable_observer'         => '',
-		'loop'                    => '',
+		'slider_posts'      => [],
+		'layout'            => 'a',
+		'wrapper_classes'   => 'swiper-slide w-auto',
+		'image_sized'       => true,
+		'navigation'        => '',
+		'direction'         => 'ltr',
+		'spacing_between'   => [ 'size' => 20 ],
+		'autoplay'          => 'yes',
+		'autoplay_delay'    => 5000,
+		'grid_widget_title' => '',
+		'header_size'       => 'h3',
+		'header_icon'       => '',
+		'enable_observer'   => '',
+		'free_mode'         => '',
+		'loop'              => '',
 	]
 );
 
@@ -58,18 +53,12 @@ $spacing_between = ( ! empty( $data->spacing_between['size'] ) && $data->spacing
 
 	<!-- Slider main container -->
 	<div
-		class="anwp-pg-simple-slider anwp-pg-swiper-wrapper position-relative swiper-container anwp-pg-no-transform"
-		data-pg-slides-per-view="<?php echo esc_attr( $data->slides_to_show ); ?>"
-		data-pg-slides-per-view-mobile="<?php echo esc_attr( $data->slides_to_show_mobile ); ?>"
-		data-pg-slides-per-view-tablet="<?php echo esc_attr( $data->slides_to_show_tablet ); ?>"
-		data-pg-slides-per-group="<?php echo esc_attr( $data->slides_to_scroll ); ?>"
-		data-pg-slides-per-group-mobile="<?php echo esc_attr( $data->slides_to_scroll_mobile ); ?>"
-		data-pg-slides-per-group-tablet="<?php echo esc_attr( $data->slides_to_scroll_tablet ); ?>"
+		class="anwp-pg-flex-slider anwp-pg-swiper-wrapper position-relative swiper-container anwp-pg-no-transform"
 		data-pg-autoplay="<?php echo esc_attr( $data->autoplay ); ?>"
 		data-pg-autoplay-delay="<?php echo esc_attr( $data->autoplay_delay ); ?>"
 		data-pg-space-between="<?php echo esc_attr( $spacing_between ); ?>"
-		data-pg-effect="<?php echo esc_attr( $data->effect ); ?>"
 		data-pg-enable-observer="<?php echo esc_attr( $data->enable_observer ); ?>"
+		data-pg-free-mode="<?php echo esc_attr( $data->free_mode ); ?>"
 		data-pg-loop="<?php echo esc_attr( $data->loop ); ?>"
 		dir="<?php echo esc_attr( $data->direction ); ?>"
 	>

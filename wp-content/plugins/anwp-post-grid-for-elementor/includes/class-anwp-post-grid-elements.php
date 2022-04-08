@@ -67,13 +67,17 @@ class AnWP_Post_Grid_Elements {
 	 */
 	public function hooks() {
 
+		if ( ( defined( 'ELEMENTOR_VERSION' ) && version_compare( ELEMENTOR_VERSION, '3.5.0', '>=' ) ) ) {
+			add_action( 'elementor/widgets/register', [ $this, 'init_widgets' ] );
+		} else {
+			add_action( 'elementor/widgets/widgets_registered', [ $this, 'init_widgets' ] );
+		}
+
 		// Controls
-		add_action( 'elementor/controls/controls_registered', [ $this, 'register_controls' ] );
 		add_action( 'wp_ajax_anwp_pg_selector_data', [ $this, 'get_selector_data' ] );
 		add_action( 'wp_ajax_anwp_pg_selector_initial', [ $this, 'get_selector_initial' ] );
 
 		// Add Plugin actions
-		add_action( 'elementor/widgets/widgets_registered', [ $this, 'init_widgets' ] );
 		add_filter( 'elementor/editor/localize_settings', [ $this, 'promote_premium_widgets' ] );
 
 		add_action( 'wp_ajax_nopriv_anwp_pg_load_more_posts', [ $this, 'ajax_load_more' ] );
@@ -88,17 +92,6 @@ class AnWP_Post_Grid_Elements {
 		// Load sections
 		add_action( 'anwp-pg-el/general/section_query', [ $this, 'load_query_section' ] );
 		add_action( 'anwp-pg-el/general/section_header', [ $this, 'load_header_section' ] );
-	}
-
-	/**
-	 * Register plugin controls.
-	 *
-	 * @since 0.8.3
-	 */
-	public function register_controls() {
-
-		$controls_manager = Plugin::$instance->controls_manager;
-		$controls_manager->register_control( 'anwp-id-selector', new AnWP_Post_Grid_Control_Id_Selector() );
 	}
 
 	/**
@@ -774,7 +767,11 @@ class AnWP_Post_Grid_Elements {
 		| @since 0.1.0
 		|--------------------------------------------------------------------
 		*/
-		Plugin::instance()->widgets_manager->register_widget_type( new AnWP_Post_Grid_Element_Simple_Grid() );
+		if ( ( defined( 'ELEMENTOR_VERSION' ) && version_compare( ELEMENTOR_VERSION, '3.5.0', '>=' ) ) ) {
+			Plugin::instance()->widgets_manager->register( new AnWP_Post_Grid_Element_Simple_Grid() );
+		} else {
+			Plugin::instance()->widgets_manager->register_widget_type( new AnWP_Post_Grid_Element_Simple_Grid() );
+		}
 
 		/*
 		|--------------------------------------------------------------------
@@ -782,7 +779,11 @@ class AnWP_Post_Grid_Elements {
 		| @since 0.1.0
 		|--------------------------------------------------------------------
 		*/
-		Plugin::instance()->widgets_manager->register_widget_type( new AnWP_Post_Grid_Element_Light_Grid() );
+		if ( ( defined( 'ELEMENTOR_VERSION' ) && version_compare( ELEMENTOR_VERSION, '3.5.0', '>=' ) ) ) {
+			Plugin::instance()->widgets_manager->register( new AnWP_Post_Grid_Element_Light_Grid() );
+		} else {
+			Plugin::instance()->widgets_manager->register_widget_type( new AnWP_Post_Grid_Element_Light_Grid() );
+		}
 
 		/*
 		|--------------------------------------------------------------------
@@ -790,7 +791,11 @@ class AnWP_Post_Grid_Elements {
 		| @since 0.1.0
 		|--------------------------------------------------------------------
 		*/
-		Plugin::instance()->widgets_manager->register_widget_type( new AnWP_Post_Grid_Element_Classic_Grid() );
+		if ( ( defined( 'ELEMENTOR_VERSION' ) && version_compare( ELEMENTOR_VERSION, '3.5.0', '>=' ) ) ) {
+			Plugin::instance()->widgets_manager->register( new AnWP_Post_Grid_Element_Classic_Grid() );
+		} else {
+			Plugin::instance()->widgets_manager->register_widget_type( new AnWP_Post_Grid_Element_Classic_Grid() );
+		}
 
 		/*
 		|--------------------------------------------------------------------
@@ -798,7 +803,11 @@ class AnWP_Post_Grid_Elements {
 		| @since 0.6.0
 		|--------------------------------------------------------------------
 		*/
-		Plugin::instance()->widgets_manager->register_widget_type( new AnWP_Post_Grid_Element_Simple_Slider() );
+		if ( ( defined( 'ELEMENTOR_VERSION' ) && version_compare( ELEMENTOR_VERSION, '3.5.0', '>=' ) ) ) {
+			Plugin::instance()->widgets_manager->register( new AnWP_Post_Grid_Element_Simple_Slider() );
+		} else {
+			Plugin::instance()->widgets_manager->register_widget_type( new AnWP_Post_Grid_Element_Simple_Slider() );
+		}
 
 		/*
 		|--------------------------------------------------------------------
@@ -806,7 +815,11 @@ class AnWP_Post_Grid_Elements {
 		| @since 0.6.0
 		|--------------------------------------------------------------------
 		*/
-		Plugin::instance()->widgets_manager->register_widget_type( new AnWP_Post_Grid_Element_Classic_Slider() );
+		if ( ( defined( 'ELEMENTOR_VERSION' ) && version_compare( ELEMENTOR_VERSION, '3.5.0', '>=' ) ) ) {
+			Plugin::instance()->widgets_manager->register( new AnWP_Post_Grid_Element_Classic_Slider() );
+		} else {
+			Plugin::instance()->widgets_manager->register_widget_type( new AnWP_Post_Grid_Element_Classic_Slider() );
+		}
 
 		/*
 		|--------------------------------------------------------------------
@@ -814,7 +827,11 @@ class AnWP_Post_Grid_Elements {
 		| @since 0.6.1
 		|--------------------------------------------------------------------
 		*/
-		Plugin::instance()->widgets_manager->register_widget_type( new AnWP_Post_Grid_Element_Hero_Block() );
+		if ( ( defined( 'ELEMENTOR_VERSION' ) && version_compare( ELEMENTOR_VERSION, '3.5.0', '>=' ) ) ) {
+			Plugin::instance()->widgets_manager->register( new AnWP_Post_Grid_Element_Hero_Block() );
+		} else {
+			Plugin::instance()->widgets_manager->register_widget_type( new AnWP_Post_Grid_Element_Hero_Block() );
+		}
 
 		/*
 		|--------------------------------------------------------------------
@@ -822,7 +839,23 @@ class AnWP_Post_Grid_Elements {
 		| @since 0.6.2
 		|--------------------------------------------------------------------
 		*/
-		Plugin::instance()->widgets_manager->register_widget_type( new AnWP_Post_Grid_Element_Classic_Blog() );
+		if ( ( defined( 'ELEMENTOR_VERSION' ) && version_compare( ELEMENTOR_VERSION, '3.5.0', '>=' ) ) ) {
+			Plugin::instance()->widgets_manager->register( new AnWP_Post_Grid_Element_Classic_Blog() );
+		} else {
+			Plugin::instance()->widgets_manager->register_widget_type( new AnWP_Post_Grid_Element_Classic_Blog() );
+		}
+
+		/*
+		|--------------------------------------------------------------------
+		| > Flex Slider
+		| @since 0.9.0
+		|--------------------------------------------------------------------
+		*/
+		if ( ( defined( 'ELEMENTOR_VERSION' ) && version_compare( ELEMENTOR_VERSION, '3.5.0', '>=' ) ) ) {
+			Plugin::instance()->widgets_manager->register( new AnWP_Post_Grid_Element_Flex_Slider() );
+		} else {
+			Plugin::instance()->widgets_manager->register_widget_type( new AnWP_Post_Grid_Element_Flex_Slider() );
+		}
 	}
 
 	/**
@@ -834,8 +867,10 @@ class AnWP_Post_Grid_Elements {
 	public function get_posts_to_show_options() {
 
 		$options = [
-			'latest'        => __( 'Latest', 'anwp-post-grid' ),
-			'oldest'        => __( 'Oldest', 'anwp-post-grid' ),
+			'latest'        => __( 'Latest (published)', 'anwp-post-grid' ),
+			'oldest'        => __( 'Oldest (published)', 'anwp-post-grid' ),
+			'latest_mod'    => __( 'Latest (modified)', 'anwp-post-grid' ),
+			'oldest_mod'    => __( 'Oldest (modified)', 'anwp-post-grid' ),
 			'comment_count' => __( 'Most commented', 'anwp-post-grid' ),
 			'custom'        => __( 'Custom', 'anwp-post-grid' ),
 		];
@@ -854,10 +889,15 @@ class AnWP_Post_Grid_Elements {
 	 * @since 0.8.4
 	 */
 	public function get_source_options() {
-		return [
+
+		$general_options = [
 			'posts'   => __( 'Posts', 'anwp-post-grid' ),
 			'related' => __( 'Related', 'anwp-post-grid' ),
 		];
+
+		$cpt_options = anwp_post_grid()->settings->get_cpt_list_options();
+
+		return array_merge( $general_options, $cpt_options );
 	}
 
 	/**
@@ -1178,6 +1218,11 @@ class AnWP_Post_Grid_Elements {
 				}
 			}
 		} else {
+
+			if ( in_array( $options->query_source, array_keys( anwp_post_grid()->settings->get_cpt_list_options() ), true ) ) {
+				$args['post_type'] = $options->query_source;
+			}
+
 			if ( 'custom' === $options->posts_to_show ) {
 
 				$args['include'] = $options->include_ids;
@@ -1202,6 +1247,15 @@ class AnWP_Post_Grid_Elements {
 
 						case 'oldest':
 							$args['order'] = 'ASC';
+							break;
+
+						case 'oldest_mod':
+							$args['order']   = 'ASC';
+							$args['orderby'] = 'modified';
+							break;
+
+						case 'latest_mod':
+							$args['orderby'] = 'modified';
 							break;
 					}
 				}
@@ -1289,13 +1343,21 @@ class AnWP_Post_Grid_Elements {
 
 		$media_url = '';
 
-		$post_id = $pre_post_id ? $pre_post_id : get_the_ID();
+		$post_id = $pre_post_id ? : get_the_ID();
 
 		// If featured image is present, use that.
 		if ( has_post_thumbnail( $post_id ) ) {
 
 			$featured_image_id = get_post_thumbnail_id( $post_id );
 			$media_url         = wp_get_attachment_image_url( $featured_image_id, sanitize_key( $size ) );
+
+			if ( $media_url ) {
+				return $media_url;
+			}
+		}
+
+		if ( in_array( get_post_type( $post_id ), array_keys( anwp_post_grid()->settings->get_cpt_list_options() ), true ) ) {
+			$media_url = anwp_post_grid()->settings->get_cpt_media_url( $post_id, $size );
 
 			if ( $media_url ) {
 				return $media_url;
@@ -1908,6 +1970,7 @@ class AnWP_Post_Grid_Elements {
 		switch ( $element_name ) {
 			case 'anwp-pg-classic-slider':
 			case 'anwp-pg-simple-slider':
+			case 'anwp-pg-flex-slider':
 				$default_posts_limits = 6;
 				break;
 
@@ -1961,7 +2024,7 @@ class AnWP_Post_Grid_Elements {
 				'options'     => anwp_post_grid()->elements->get_posts_to_show_options(),
 				'label_block' => true,
 				'condition'   => [
-					'query_source' => 'posts',
+					'query_source!' => 'related',
 				],
 			]
 		);
@@ -1969,8 +2032,8 @@ class AnWP_Post_Grid_Elements {
 		$element->add_control(
 			'hr',
 			[
-				'type'         => Controls_Manager::DIVIDER,
-				'query_source' => 'posts',
+				'type'          => Controls_Manager::DIVIDER,
+				'query_source!' => 'related',
 			]
 		);
 
@@ -1984,7 +2047,7 @@ class AnWP_Post_Grid_Elements {
 				'context'     => 'posts',
 				'condition'   => [
 					'posts_to_show' => 'custom',
-					'query_source'  => 'posts',
+					'query_source!' => 'related',
 				],
 			]
 		);
@@ -1999,7 +2062,7 @@ class AnWP_Post_Grid_Elements {
 				'context'     => 'categories',
 				'condition'   => [
 					'posts_to_show!' => 'custom',
-					'query_source'   => 'posts',
+					'query_source!'  => 'related',
 				],
 			]
 		);
@@ -2014,7 +2077,7 @@ class AnWP_Post_Grid_Elements {
 				'context'     => 'tags',
 				'condition'   => [
 					'posts_to_show!' => 'custom',
-					'query_source'   => 'posts',
+					'query_source!'  => 'related',
 				],
 			]
 		);
@@ -2045,7 +2108,7 @@ class AnWP_Post_Grid_Elements {
 				'context'     => 'authors',
 				'condition'   => [
 					'posts_to_show!' => 'custom',
-					'query_source'   => 'posts',
+					'query_source!'  => 'related',
 				],
 			]
 		);
@@ -2056,7 +2119,7 @@ class AnWP_Post_Grid_Elements {
 				'type'      => Controls_Manager::DIVIDER,
 				'condition' => [
 					'posts_to_show!' => 'custom',
-					'query_source'   => 'posts',
+					'query_source!'  => 'related',
 				],
 			]
 		);
@@ -2108,7 +2171,7 @@ class AnWP_Post_Grid_Elements {
 					'raw'       => __( 'Set fallback of what to show if relevant results are less than 5.', 'anwp-post-grid' ),
 					'condition' => [
 						'posts_to_show!' => 'custom',
-						'query_source'   => 'posts',
+						'query_source!'  => 'related',
 					],
 				]
 			);
@@ -2127,7 +2190,7 @@ class AnWP_Post_Grid_Elements {
 					'default'     => 'hide',
 					'condition'   => [
 						'posts_to_show!' => 'custom',
-						'query_source'   => 'posts',
+						'query_source!'  => 'related',
 					],
 					'label_block' => true,
 				]
@@ -2139,7 +2202,7 @@ class AnWP_Post_Grid_Elements {
 					'type'      => Controls_Manager::DIVIDER,
 					'condition' => [
 						'posts_to_show!' => 'custom',
-						'query_source'   => 'posts',
+						'query_source!'  => 'related',
 					],
 				]
 			);
@@ -2170,7 +2233,7 @@ class AnWP_Post_Grid_Elements {
 				'context'     => 'categories',
 				'condition'   => [
 					'posts_to_show!' => 'custom',
-					'query_source'   => 'posts',
+					'query_source!'  => 'related',
 				],
 			]
 		);
@@ -2185,7 +2248,7 @@ class AnWP_Post_Grid_Elements {
 				'context'     => 'authors',
 				'condition'   => [
 					'posts_to_show!' => 'custom',
-					'query_source'   => 'posts',
+					'query_source!'  => 'related',
 				],
 			]
 		);
@@ -2196,7 +2259,7 @@ class AnWP_Post_Grid_Elements {
 				'type'      => Controls_Manager::DIVIDER,
 				'condition' => [
 					'posts_to_show!' => 'custom',
-					'query_source'   => 'posts',
+					'query_source!'  => 'related',
 				],
 			]
 		);
@@ -2213,7 +2276,7 @@ class AnWP_Post_Grid_Elements {
 				'default'     => 0,
 				'condition'   => [
 					'posts_to_show!' => 'custom',
-					'query_source'   => 'posts',
+					'query_source!'  => 'related',
 				],
 			]
 		);
@@ -2224,7 +2287,7 @@ class AnWP_Post_Grid_Elements {
 				'type'      => Controls_Manager::DIVIDER,
 				'condition' => [
 					'posts_to_show!' => 'custom',
-					'query_source'   => 'posts',
+					'query_source!'  => 'related',
 				],
 			]
 		);
@@ -2239,7 +2302,7 @@ class AnWP_Post_Grid_Elements {
 				'default'     => 0,
 				'condition'   => [
 					'posts_to_show!' => 'custom',
-					'query_source'   => 'posts',
+					'query_source!'  => 'related',
 				],
 			]
 		);
@@ -2437,7 +2500,7 @@ class AnWP_Post_Grid_Elements {
 					'{{WRAPPER}}.anwp-pg-widget-header-style--e .anwp-pg-widget-header__secondary-line' => 'height: {{SIZE}}{{UNIT}};',
 					'{{WRAPPER}}.anwp-pg-widget-header-style--f .anwp-pg-widget-header__secondary-line' => 'height: {{SIZE}}{{UNIT}};',
 					'{{WRAPPER}}.anwp-pg-widget-header-style--g .anwp-pg-widget-header__secondary-line' => 'width: {{SIZE}}{{UNIT}};',
-					'{{WRAPPER}}.anwp-pg-widget-header-style--g .anwp-pg-widget-header__title' => 'margin-left: {{SIZE}}{{UNIT}};',
+					'{{WRAPPER}}.anwp-pg-widget-header-style--g .anwp-pg-widget-header__title'          => 'margin-left: {{SIZE}}{{UNIT}};',
 				],
 			]
 		);

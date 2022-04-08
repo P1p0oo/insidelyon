@@ -67,9 +67,14 @@ $open_link_in_new_tab = AnWP_Post_Grid::string_to_bool( AnWP_Post_Grid_Settings:
 			</div>
 		<?php endif; ?>
 
-		<div class="anwp-pg-post-teaser__thumbnail-img"
-			style="background-image: url(<?php echo esc_url( anwp_post_grid()->elements->get_post_image_uri( 'thumbnail', true, $wp_post->ID ) ); ?>)">
-		</div>
+		<?php if ( 'div_bg' === AnWP_Post_Grid_Settings::get_value( 'image_rendering' ) ) : ?>
+			<div class="anwp-pg-post-teaser__thumbnail-img"
+				style="background-image: url(<?php echo esc_url( anwp_post_grid()->elements->get_post_image_uri( 'thumbnail', true, $wp_post->ID ) ); ?>)">
+			</div>
+		<?php else : ?>
+			<img class="anwp-pg-post-teaser__thumbnail-img d-block anwp-object-cover m-0 w-100" alt="<?php echo esc_attr( get_the_title( $wp_post->ID ) ); ?>"
+				src="<?php echo esc_url( anwp_post_grid()->elements->get_post_image_uri( 'thumbnail', true, $wp_post->ID ) ); ?>"/>
+		<?php endif; ?>
 
 		<div class="anwp-pg-post-teaser__thumbnail-bg anwp-position-cover"></div>
 	</div>

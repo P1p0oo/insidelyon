@@ -10,7 +10,7 @@
  * @package          AnWP_Post_Grid/Templates
  * @since            0.1.0
  *
- * @version          0.8.5
+ * @version          0.9.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -90,7 +90,7 @@ $open_link_in_new_tab = AnWP_Post_Grid::string_to_bool( AnWP_Post_Grid_Settings:
 			if ( 'yes' === $data->show_post_icon && anwp_post_grid()->settings->get_post_icon( $wp_post->ID ) ) :
 				?>
 				<div class="anwp-pg-post-teaser__format-icon d-flex align-items-center justify-content-center">
-					<img class="anwp-object-contain" src="<?php echo esc_url( anwp_post_grid()->settings->get_post_icon( $wp_post->ID ) ); ?>" alt="post format icon">
+					<img class="anwp-object-contain m-0" src="<?php echo esc_url( anwp_post_grid()->settings->get_post_icon( $wp_post->ID ) ); ?>" alt="post format icon">
 				</div>
 			<?php endif; ?>
 

@@ -332,8 +332,10 @@ class AnWP_Post_Grid_Settings {
 				'show_category_color'    => true,
 				'link_open_new_tab'      => false,
 				'default_featured_image' => '',
+				'image_rendering'        => '',
 				'category_ordering'      => '',
 				'post_icons'             => [],
+				'cpt_support'            => [],
 			]
 		);
 
@@ -343,7 +345,9 @@ class AnWP_Post_Grid_Settings {
 		$sanitized_options['link_open_new_tab']      = AnWP_Post_Grid::string_to_bool( $options['link_open_new_tab'] ) ? 'yes' : 'no';
 		$sanitized_options['default_featured_image'] = absint( $options['default_featured_image'] ) ?: '';
 		$sanitized_options['category_ordering']      = sanitize_text_field( $options['category_ordering'] );
+		$sanitized_options['image_rendering']        = sanitize_text_field( $options['image_rendering'] );
 		$sanitized_options['post_icons']             = empty( $options['post_icons'] ) ? [] : $this->recursive_sanitize( $options['post_icons'] );
+		$sanitized_options['cpt_support']            = empty( $options['cpt_support'] ) ? [] : $this->recursive_sanitize( $options['cpt_support'] );
 
 		return $sanitized_options;
 	}
@@ -597,5 +601,126 @@ class AnWP_Post_Grid_Settings {
 		}
 
 		return $icon_url;
+	}
+
+	/**
+	 * Get available registered CPTs
+	 *
+	 * @return array
+	 * @since 0.9.0
+	 */
+	public function get_post_type_options() {
+
+		global $wpdb;
+
+		$output = [];
+
+		$post_types = get_post_types(
+			[
+				'public'   => true,
+				'_builtin' => false,
+			],
+			'objects'
+		);
+
+		if ( empty( $post_types ) ) {
+			return [];
+		}
+
+		foreach ( $post_types as $post_type ) {
+
+			$meta_fields = $wpdb->get_col(
+				$wpdb->prepare(
+					"
+						SELECT DISTINCT pm.meta_key
+						FROM $wpdb->postmeta pm
+						LEFT JOIN $wpdb->posts p ON p.ID = pm.post_id
+						WHERE p.post_status = 'publish' AND p.post_type = %s
+						",
+					$post_type->name
+				)
+			);
+
+			$output[] = [
+				'name'       => $post_type->name,
+				'label'      => $post_type->label,
+				'image'      => in_array( '_thumbnail_id', $meta_fields, true ) ? '_thumbnail_id' : '',
+				'image_type' => in_array( '_thumbnail_id', $meta_fields, true ) ? 'id' : 'url', // or url
+				'meta'       => $meta_fields,
+			];
+		}
+
+		return $output;
+	}
+
+	/**
+	 * Get available supported CPTs
+	 *
+	 * @return array
+	 * @since 0.9.0
+	 */
+	public function get_cpt_list_options() {
+
+		$options        = [];
+		$plugin_options = get_option( 'anwp_pg_plugin_settings', [] );
+
+		if ( ! empty( $plugin_options ) && ! empty( $plugin_options['cpt_support'] ) ) {
+			foreach ( $plugin_options['cpt_support'] as $cpt_support ) {
+				$options[ $cpt_support['name'] ] = $cpt_support['label'];
+			}
+		}
+
+		return $options;
+	}
+
+	/**
+	 * Get CPT image url
+	 *
+	 * @return string
+	 * @since 0.9.0
+	 */
+	public function get_cpt_media_url( $post_id, $image_size ) {
+
+		$image_url = '';
+
+		/*
+		|--------------------------------------------------------------------
+		| Get Plugin Options
+		|--------------------------------------------------------------------
+		*/
+		$plugin_options = get_option( 'anwp_pg_plugin_settings', [] );
+
+		if ( ! empty( $plugin_options ) && ! empty( $plugin_options['cpt_support'] ) ) {
+			$cpt_options = $plugin_options['cpt_support'];
+		} else {
+			return $image_url;
+		}
+
+		/*
+		|--------------------------------------------------------------------
+		| Current post type options
+		|--------------------------------------------------------------------
+		*/
+		$post_type = get_post_type( $post_id );
+		$cpt_data  = wp_list_filter( $cpt_options, [ 'name' => $post_type ] );
+
+		if ( empty( $cpt_data ) ) {
+			return $image_url;
+		}
+
+		$cpt_data = array_values( $cpt_data )[0];
+
+		if ( 'url' === $cpt_data['image_type'] && $cpt_data['image_meta'] ) {
+			return get_post_meta( $post_id, $cpt_data['image_meta'], true );
+		} elseif ( 'id' === $cpt_data['image_type'] && $cpt_data['image_meta'] ) {
+			$featured_image_id = get_post_meta( $post_id, $cpt_data['image_meta'], true );
+			$media_url         = wp_get_attachment_image_url( $featured_image_id, sanitize_key( $image_size ) );
+
+			if ( $media_url ) {
+				return $media_url;
+			}
+		}
+
+		return $image_url;
 	}
 }

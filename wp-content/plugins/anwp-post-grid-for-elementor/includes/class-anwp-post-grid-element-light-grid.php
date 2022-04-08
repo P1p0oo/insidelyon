@@ -83,7 +83,7 @@ class AnWP_Post_Grid_Element_Light_Grid extends Widget_Base {
 	 * @since  0.1.0
 	 * @access protected
 	 */
-	protected function _register_controls() { // phpcs:ignore PSR2.Methods.MethodDeclaration.Underscore
+	protected function register_controls() { // phpcs:ignore PSR2.Methods.MethodDeclaration.Underscore
 
 		/**
 		 * Before start of controls.

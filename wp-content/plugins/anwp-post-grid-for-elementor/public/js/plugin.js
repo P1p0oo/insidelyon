@@ -23,6 +23,10 @@ window.anwpPostGridElementor = {};
 				app.initSwiper( $scope );
 			} );
 
+			elementorFrontend.hooks.addAction( 'frontend/element_ready/anwp-pg-flex-slider.default', function( $scope ) {
+				app.initFlexSwiper( $scope );
+			} );
+
 			elementorFrontend.hooks.addAction( 'frontend/element_ready/anwp-pg-classic-slider.default', function( $scope ) {
 				app.initSwiper( $scope );
 			} );
@@ -148,6 +152,10 @@ window.anwpPostGridElementor = {};
 			}
 		};
 
+		if ( 'yes' === $slider.data( 'pg-loop' ) ) {
+			swiperOptions.loop = true;
+		}
+
 		if ( 'yes' === $slider.data( 'pg-autoplay' ) ) {
 			swiperOptions.autoplay = {
 				delay: $slider.data( 'pg-autoplay-delay' )
@@ -183,7 +191,66 @@ window.anwpPostGridElementor = {};
 		if ( 'undefined' === typeof Swiper ) {
 			new elementorFrontend.utils.swiper( $slider, swiperOptions );
 		} else {
-			new Swiper( $slider, swiperOptions );
+			new Swiper( $slider[0], swiperOptions );
+		}
+	};
+
+	app.initFlexSwiper = function( $scope ) {
+
+		var $slider = $scope.find( '.anwp-pg-swiper-wrapper' ).eq( 0 );
+
+		if ( ! $slider.length ) {
+			return false;
+		}
+
+		// Get Swiper options
+		var swiperOptions = {
+			autoHeight: 'yes' !== $slider.data( 'pg-show-read-more' ),
+			roundLengths: true,
+			spaceBetween: $slider.data( 'pg-space-between' ),
+			slidesPerView: 'auto'
+		};
+
+		if ( 'yes' === $slider.data( 'pg-autoplay' ) ) {
+			swiperOptions.autoplay = {
+				delay: $slider.data( 'pg-autoplay-delay' )
+			};
+		}
+
+		if ( 'yes' === $slider.data( 'pg-loop' ) ) {
+			swiperOptions.loop = true;
+		} else {
+			swiperOptions.loop = false;
+		}
+
+		if ( 'yes' === $slider.data( 'pg-free-mode' ) ) {
+			swiperOptions.freeMode = true;
+		}
+
+		if ( 'yes' === $slider.data( 'pg-enable-observer' ) ) {
+			swiperOptions.observer = true;
+			swiperOptions.observeParents = true;
+		}
+
+		if ( $scope.find( '.swiper-pagination' ).length ) {
+			swiperOptions.pagination = {
+				el: '.swiper-pagination',
+				type: 'bullets',
+				clickable: true
+			};
+		}
+
+		if ( $scope.find( '.elementor-swiper-button-prev' ).length ) {
+			swiperOptions.navigation = {
+				prevEl: '.elementor-swiper-button-prev',
+				nextEl: '.elementor-swiper-button-next'
+			};
+		}
+
+		if ( 'undefined' === typeof Swiper ) {
+			new elementorFrontend.utils.swiper( $slider, swiperOptions );
+		} else {
+			new Swiper( $slider[0], swiperOptions );
 		}
 	};
 

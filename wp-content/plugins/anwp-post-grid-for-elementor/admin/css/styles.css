@@ -42,16 +42,13 @@
   z-index: 9999;
   overflow: auto;
   opacity: 1;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-overflow-scrolling: touch;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
 .modaal-wrapper * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-backface-visibility: hidden;
@@ -118,8 +115,7 @@
   max-width: 1000px;
   border-radius: 0px;
   background: #fff;
-  -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   cursor: auto;
 }
 
@@ -146,7 +142,6 @@
   height: 50px;
   background: rgba(0, 0, 0, 0);
   border-radius: 100%;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
@@ -181,7 +176,6 @@
   height: 22px;
   border-radius: 4px;
   background: #fff;
-  -webkit-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out;
 }
 
@@ -226,7 +220,6 @@
   color: #fff;
   background: #555;
   border-radius: 3px;
-  -webkit-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out;
 }
 
@@ -264,8 +257,7 @@
 .modaal-instagram .modaal-container {
   width: auto;
   background: transparent;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .modaal-instagram .modaal-content-container {
@@ -285,8 +277,7 @@
   border-radius: 0 !important;
   width: 1000px !important;
   max-width: 800px !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
   -webkit-animation: instaReveal 1s linear forwards;
           animation: instaReveal 1s linear forwards;
 }
@@ -345,7 +336,6 @@
   background: rgba(0, 0, 0, 0);
   border: none;
   border-radius: 100%;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
@@ -385,7 +375,6 @@
   height: 18px;
   border-radius: 4px;
   background: #fff;
-  -webkit-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out;
 }
 
@@ -446,8 +435,7 @@
   height: 0;
   overflow: hidden;
   max-width: 100%;
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   background: #000;
   max-width: 1300px;
   margin-left: auto;
@@ -774,8 +762,7 @@
 }
 
 .anwp-modaal-wrapper .custom-control-label::before, .anwp-modaal-wrapper .custom-control-label::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 18px;
   height: 18px;
   top: 7px;

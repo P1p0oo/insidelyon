@@ -48,6 +48,10 @@ $fields_data = [
 		'label'       => esc_html__( 'Category Ordering', 'anwp-post-grid' ),
 		'description' => esc_html__( 'Change default category ordering.', 'anwp-post-grid' ),
 	],
+	'image_rendering'        => [
+		'label'       => esc_html__( 'Image Rendering', 'anwp-post-grid' ),
+		'description' => esc_html__( 'Change image rendering container', 'anwp-post-grid' ),
+	],
 	'default_featured_image' => [
 		'label'       => esc_html__( 'Default Featured Image', 'anwp-post-grid' ),
 		'description' => esc_html__( 'Selected image will be used in posts when no featured image is set.', 'anwp-post-grid' ),
@@ -55,6 +59,10 @@ $fields_data = [
 	'post_icons'             => [
 		'label'       => esc_html__( 'Post Icons', 'anwp-post-grid' ),
 		'description' => esc_html__( 'You can display custom icon for the selected category, tag, or post format.', 'anwp-post-grid' ),
+	],
+	'cpt_support'            => [
+		'label'       => esc_html__( 'Custom Post Type (CPT)', 'anwp-post-grid' ),
+		'description' => esc_html__( 'List of supported CPTs', 'anwp-post-grid' ),
 	],
 ];
 
@@ -70,9 +78,11 @@ $plugin_options = wp_parse_args(
 	[
 		'show_category_color'    => 'no',
 		'link_open_new_tab'      => 'no',
+		'image_rendering'        => 'img',
 		'default_featured_image' => '',
 		'category_ordering'      => '',
 		'post_icons'             => [],
+		'cpt_support'            => [],
 	]
 );
 
@@ -154,6 +164,7 @@ if ( current_theme_supports( 'post-formats' ) ) {
 	var _anwp_pg_settings_data   = <?php echo wp_json_encode( $plugin_options ); ?>;
 	var _anwp_pg_settings_types  = <?php echo wp_json_encode( $type_options ); ?>;
 	var _anwp_pg_octi_icons      = <?php echo wp_json_encode( anwp_post_grid()->settings->get_octi_icons() ); ?>;
+	var _anwp_pg_cpt_options     = <?php echo wp_json_encode( anwp_post_grid()->settings->get_post_type_options() ); ?>;
 </script>
 <div class="wrap anwp-pg-wrap">
 	<div class="postbox mt-4 ml-1 py-3 px-4 anwp-container">
