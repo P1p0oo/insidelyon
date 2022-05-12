@@ -12466,7 +12466,7 @@ msgstr ""
 #: app/libraries/main.php:8753 app/skins/single.php:230
 #, fuzzy
 #| msgid "Expired Events"
-msgid "Expired!"
+msgid "Événement terminé !"
 msgstr "Události vypršely"
 
 #: app/libraries/main.php:9311

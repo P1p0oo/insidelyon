@@ -227,7 +227,7 @@ class MEC_skin_single extends MEC_skins
                                 <h5>
                                     <a class="mec-color-hover" href="<?php echo $this->main->get_event_date_permalink(get_the_permalink(), $mec_date); ?>"><?php echo get_the_title(); ?></a>
                                     <?php if($display_expired_events && $timestamp && $timestamp < $now): ?>
-                                    <span class="mec-holding-status mec-holding-status-expired"><?php _e('Expiré !', 'modern-events-calendar-lite'); ?></span>
+                                    <span class="mec-holding-status mec-holding-status-expired"><?php _e('Événement terminé !', 'modern-events-calendar-lite'); ?></span>
                                     <?php endif; ?>
                                 </h5>
                             </div>

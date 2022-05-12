@@ -8748,7 +8748,7 @@ class MEC_main extends MEC_base
     public function holding_status($event)
     {
         if($this->is_ongoing($event)) return '<dl><dd><span class="mec-holding-status mec-holding-status-ongoing">'.__('Ongoing...', 'modern-events-calendar-lite').'</span></dd></dl>';
-        elseif($this->is_expired($event)) return '<dl><dd><span class="mec-holding-status mec-holding-status-expired">'.__('Expired!', 'modern-events-calendar-lite').'</span></dd></dl>';
+        elseif($this->is_expired($event)) return '<dl><dd><span class="mec-holding-status mec-holding-status-expired">'.__('Événement terminé !', 'modern-events-calendar-lite').'</span></dd></dl>';
 
         return '';
     }
