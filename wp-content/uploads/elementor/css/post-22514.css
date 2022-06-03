@@ -1,0 +1,99 @@
+.elementor-22514 .elementor-element.elementor-element-850367b{margin-top:56px;margin-bottom:0px;}.elementor-22514 .elementor-element.elementor-element-2e5cc87f > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}.elementor-22514 .elementor-element.elementor-element-6ea18230 > .elementor-container{min-height:266px;}.elementor-22514 .elementor-element.elementor-element-6ea18230:not(.elementor-motion-effects-element-type-background), .elementor-22514 .elementor-element.elementor-element-6ea18230 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --e-global-color-primary );}.elementor-22514 .elementor-element.elementor-element-6ea18230{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-22514 .elementor-element.elementor-element-6ea18230 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-22514 .elementor-element.elementor-element-75ce2382{text-align:left;width:100px;max-width:100px;bottom:21px;}.elementor-22514 .elementor-element.elementor-element-75ce2382 img{width:109px;}body:not(.rtl) .elementor-22514 .elementor-element.elementor-element-75ce2382{left:-27px;}body.rtl .elementor-22514 .elementor-element.elementor-element-75ce2382{right:-27px;}.elementor-22514 .elementor-element.elementor-element-2f5204e3{text-align:center;color:#F2A4B1;font-family:"Adrianna", Sans-serif;font-size:32px;font-weight:700;line-height:35px;}.elementor-22514 .elementor-element.elementor-element-2f5204e3 > .elementor-widget-container{margin:30px 0px 0px 0px;}.elementor-22514 .elementor-element.elementor-element-7afa8569{text-align:center;color:#FFFFFF;font-family:"Adrianna", Sans-serif;font-size:18px;font-weight:500;line-height:28px;}.elementor-22514 .elementor-element.elementor-element-3a590b27 .elementor-button{font-size:16px;font-weight:500;fill:var( --e-global-color-primary );color:var( --e-global-color-primary );background-color:#FFFFFF;border-radius:70px 70px 70px 70px;}.elementor-22514 .elementor-element.elementor-element-3a590b27 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 40px 0px;}.elementor-22514 .elementor-element.elementor-element-3a590b27{z-index:2;}.elementor-22514 .elementor-element.elementor-element-7b86bd67{text-align:right;top:-14px;}body:not(.rtl) .elementor-22514 .elementor-element.elementor-element-7b86bd67{left:48px;}body.rtl .elementor-22514 .elementor-element.elementor-element-7b86bd67{right:48px;}@media(min-width:768px){.elementor-22514 .elementor-element.elementor-element-1dc690d3{width:19.367%;}.elementor-22514 .elementor-element.elementor-element-2e5cc87f{width:59.318%;}.elementor-22514 .elementor-element.elementor-element-35ca3c47{width:12.42%;}.elementor-22514 .elementor-element.elementor-element-79a88132{width:71.52%;}.elementor-22514 .elementor-element.elementor-element-2c88106f{width:12.452%;}.elementor-22514 .elementor-element.elementor-element-a90e034{width:20.979%;}}@media(max-width:767px){.elementor-22514 .elementor-element.elementor-element-850367b{margin-top:41px;margin-bottom:0px;}.elementor-22514 .elementor-element.elementor-element-6ea18230 > .elementor-container{min-height:221px;}.elementor-22514 .elementor-element.elementor-element-35ca3c47{width:10%;}.elementor-22514 .elementor-element.elementor-element-75ce2382{width:80px;max-width:80px;bottom:28.938px;}body:not(.rtl) .elementor-22514 .elementor-element.elementor-element-75ce2382{left:20px;}body.rtl .elementor-22514 .elementor-element.elementor-element-75ce2382{right:20px;}.elementor-22514 .elementor-element.elementor-element-79a88132{width:79%;}.elementor-22514 .elementor-element.elementor-element-79a88132 > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:3px;}.elementor-22514 .elementor-element.elementor-element-2f5204e3{font-size:24px;line-height:26px;}.elementor-22514 .elementor-element.elementor-element-2f5204e3 > .elementor-widget-container{margin:12px 10px 0px 10px;}.elementor-22514 .elementor-element.elementor-element-7afa8569{font-size:16px;line-height:21px;}.elementor-22514 .elementor-element.elementor-element-3a590b27 > .elementor-widget-container{margin:0px 0px 0px 0px;}.elementor-22514 .elementor-element.elementor-element-2c88106f{width:10%;}.elementor-22514 .elementor-element.elementor-element-7b86bd67{width:50px;max-width:50px;top:-24px;}body:not(.rtl) .elementor-22514 .elementor-element.elementor-element-7b86bd67{left:-7px;}body.rtl .elementor-22514 .elementor-element.elementor-element-7b86bd67{right:-7px;}}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Adrianna';
+	font-style: normal;
+	font-weight: 700;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: italic;
+	font-weight: bold;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Demibold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: italic;
+	font-weight: 600;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-DemiboldItalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: normal;
+	font-weight: 800;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Extrabold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: italic;
+	font-weight: 800;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-ExtraboldItalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: italic;
+	font-weight: 300;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-LightItalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: normal;
+	font-weight: 100;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Thin.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: italic;
+	font-weight: 100;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-ThinItalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Adrianna';
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: url('http://localhost:8888/wp-content/uploads/2022/01/Adrianna-Regular.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */

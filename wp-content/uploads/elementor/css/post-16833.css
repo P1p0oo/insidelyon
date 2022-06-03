@@ -231,8 +231,8 @@
 
 .elementor-16833 .elementor-element.elementor-element-e404690 img:nth-child(1){
     position: absolute;
-    right: 130px;
-    top: 18px;
+    right: 140px;
+    top: 22px;
     opacity: 0;
     transition: opacity 0.5s;
 }
@@ -240,7 +240,7 @@
 .elementor-16833 .elementor-element.elementor-element-e404690 img:nth-child(2){
     position: absolute;
     right: -10px;
-    top: -5px;
+    top: -7px;
     opacity: 0;
     transition: opacity 0.5s;
 }
@@ -265,7 +265,12 @@
 .elementor-16833 .elementor-element.elementor-element-6a05d49 p:hover img{
     opacity: 1;
 }}/* End custom CSS */
-/* Start custom CSS for text-editor, class: .elementor-element-ec2c61b */.elementor-16833 .elementor-element.elementor-element-ec2c61b p:hover, .elementor-16833 .elementor-element.elementor-element-ec2c61b a:hover{
+/* Start custom CSS for text-editor, class: .elementor-element-ec2c61b */.elementor-16833 .elementor-element.elementor-element-ec2c61b p:hover a{
+    color: #FA7268;
+    transition: color 0.5s;
+}
+
+.elementor-16833 .elementor-element.elementor-element-ec2c61b:hover a{
     color: #FA7268;
     transition: color 0.5s;
 }
@@ -278,7 +283,7 @@
     transition: opacity 0.5s;
 }
 
-.elementor-16833 .elementor-element.elementor-element-ec2c61b p:hover img{
+.elementor-16833 .elementor-element.elementor-element-ec2c61b:hover img{
     opacity: 1;
 }/* End custom CSS */
 /* Start custom CSS for section, class: .elementor-element-53847aa */.header-margin{
@@ -479,7 +484,12 @@ color: inherit;
 .elementor-16833 .elementor-element.elementor-element-674b9d6 p:hover img{
     opacity: 1;
 }}/* End custom CSS */
-/* Start custom CSS for text-editor, class: .elementor-element-673fad8 */.elementor-16833 .elementor-element.elementor-element-673fad8 p:hover, .elementor-16833 .elementor-element.elementor-element-673fad8 a:hover{
+/* Start custom CSS for text-editor, class: .elementor-element-673fad8 */.elementor-16833 .elementor-element.elementor-element-673fad8 p:hover a{
+    color: #FA7268;
+    transition: color 0.5s;
+}
+
+.elementor-16833 .elementor-element.elementor-element-673fad8:hover a{
     color: #FA7268;
     transition: color 0.5s;
 }
