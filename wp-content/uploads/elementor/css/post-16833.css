@@ -263,7 +263,7 @@
 }
 
 .elementor-16833 .elementor-element.elementor-element-6a05d49 p:hover img{
-    opacity: 1;
+    
 }}/* End custom CSS */
 /* Start custom CSS for text-editor, class: .elementor-element-ec2c61b */.elementor-16833 .elementor-element.elementor-element-ec2c61b p:hover a{
     color: #FA7268;
@@ -367,6 +367,7 @@ color: inherit;
     top: 20px;
     opacity: 0;
     transition: opacity 0.5s;
+    pointer-events: none;
 }
 
 .elementor-16833 .elementor-element.elementor-element-548e842 p:hover img{
@@ -482,7 +483,7 @@ color: inherit;
 }
 
 .elementor-16833 .elementor-element.elementor-element-674b9d6 p:hover img{
-    opacity: 1;
+    
 }}/* End custom CSS */
 /* Start custom CSS for text-editor, class: .elementor-element-673fad8 */.elementor-16833 .elementor-element.elementor-element-673fad8 p:hover a{
     color: #FA7268;
